@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>578551058066-fv2moifjmajj4qm3vo1qm5mngc5sol1k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.578551058066-fv2moifjmajj4qm3vo1qm5mngc5sol1k</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>578551058066-0q1u8go1e4g58rdmf95okef3rieo4g74.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeL6aVgH_gNr4MQ94ajtP2-Q79L-JlmmA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>578551058066</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bwinternational.bwreader</string>
+	<key>PROJECT_ID</key>
+	<string>beiwo-289007</string>
+	<key>STORAGE_BUCKET</key>
+	<string>beiwo-289007.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:578551058066:ios:9c4231d4de5ff2fa07a04b</string>
+	<key>DATABASE_URL</key>
+	<string>https://beiwo-289007.firebaseio.com</string>
+</dict>
+</plist>

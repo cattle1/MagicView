@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  MagicView
+//
+//  Created by LL on 2021/7/6.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <YYKit.h>
+#import <Masonry.h>
+#import "LLDark.h"
+
+
+#import "SettingConfig.h"
+
+#endif /* PrefixHeader_pch */

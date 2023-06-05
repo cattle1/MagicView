@@ -1,0 +1,2356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0251B726A16E50007F2428 /* MAGBookAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0251B626A16E50007F2428 /* MAGBookAnimateViewController.m */; };
+		6A0251DD26A17F44007F2428 /* MAGBookSimulationPageAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0251DC26A17F44007F2428 /* MAGBookSimulationPageAnimateViewController.m */; };
+		6A0251E126A1804A007F2428 /* MAGBookReaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0251E026A1804A007F2428 /* MAGBookReaderManager.m */; };
+		6A0251E826A1A889007F2428 /* MAGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0251E726A1A889007F2428 /* MAGView.m */; };
+		6A02520526A1AAD6007F2428 /* MAGBookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A02520426A1AAD6007F2428 /* MAGBookContentViewController.m */; };
+		6A02520926A1AAEA007F2428 /* MAGBookContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A02520826A1AAEA007F2428 /* MAGBookContentView.m */; };
+		6A02520D26A1AC17007F2428 /* MAGBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A02520C26A1AC17007F2428 /* MAGBookManager.m */; };
+		6A15844A26CF5F2A00ABA351 /* NSDictionary+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A15844926CF5F2A00ABA351 /* NSDictionary+Magic.m */; };
+		6A15849626CF8D7800ABA351 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A15849526CF8D7800ABA351 /* Foundation+Log.m */; };
+		6A15858B26D115C400ABA351 /* NSArray+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A15858A26D115C400ABA351 /* NSArray+Magic.m */; };
+		6A15860526D27AF300ABA351 /* MAGNetworkDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A15860426D27AF300ABA351 /* MAGNetworkDownloadManager.m */; };
+		6A1CA04826FAFD7500DCC2C4 /* MAGStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CA04726FAFD7500DCC2C4 /* MAGStarView.m */; };
+		6A1CA04C26FB244A00DCC2C4 /* UIScrollView+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CA04B26FB244A00DCC2C4 /* UIScrollView+Magic.m */; };
+		6A1CA04F26FB24BC00DCC2C4 /* MAGRefreshSafeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CA04E26FB24BC00DCC2C4 /* MAGRefreshSafeHeader.m */; };
+		6A1CA35D26FB74C200DCC2C4 /* MAGBookMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CA35C26FB74C200DCC2C4 /* MAGBookMallViewController.m */; };
+		6A32475A272CC496004CDAE7 /* MAGPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A324759272CC496004CDAE7 /* MAGPhotoManager.m */; };
+		6A3675CA271D9EE3003C3A8F /* MAGWechatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3675C9271D9EE3003C3A8F /* MAGWechatManager.m */; };
+		6A3675D4271DAD20003C3A8F /* MAGQQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3675D3271DAD20003C3A8F /* MAGQQManager.m */; };
+		6A3675DD271DE5F0003C3A8F /* MAGRechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3675DC271DE5F0003C3A8F /* MAGRechargeViewController.m */; };
+		6A5CD6C526DC4311004F4DD3 /* MAGBookReaderMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5CD6C426DC4311004F4DD3 /* MAGBookReaderMenuView.m */; };
+		6A5CD6CC26DC53DF004F4DD3 /* MAGBookReaderMenuView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5CD6CB26DC53DF004F4DD3 /* MAGBookReaderMenuView1.m */; };
+		6A5CD77026DCDBF4004F4DD3 /* MAGBookListenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5CD76F26DCDBF4004F4DD3 /* MAGBookListenManager.m */; };
+		6A5E6AFB26DF9F7C004611B9 /* MAGBookContentView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5E6AFA26DF9F7C004611B9 /* MAGBookContentView1.m */; };
+		6A6076E926E3965E0058CC8B /* YYAnimatedImageView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6076E826E3965E0058CC8B /* YYAnimatedImageView+Util.m */; };
+		6A6076F026E398710058CC8B /* UIFont+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6076EF26E398710058CC8B /* UIFont+Magic.m */; };
+		6A6077D226E6FF800058CC8B /* MAGYYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077D126E6FF800058CC8B /* MAGYYLabel.m */; };
+		6A6077D826E6FFB30058CC8B /* MAGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077D726E6FFB30058CC8B /* MAGImageView.m */; };
+		6A6077DE26E6FFED0058CC8B /* MAGAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077DD26E6FFED0058CC8B /* MAGAnimatedImageView.m */; };
+		6A6077E426E700190058CC8B /* MAGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077E326E700190058CC8B /* MAGButton.m */; };
+		6A6077EC26E700AB0058CC8B /* MAGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077EB26E700AB0058CC8B /* MAGTextField.m */; };
+		6A6077F226E700E70058CC8B /* MAGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077F126E700E70058CC8B /* MAGScrollView.m */; };
+		6A6077F826E7011E0058CC8B /* MAGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077F726E7011E0058CC8B /* MAGTextView.m */; };
+		6A6077FE26E701A80058CC8B /* MAGYYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6077FD26E701A80058CC8B /* MAGYYTextView.m */; };
+		6A60780426E702590058CC8B /* MAGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60780326E702590058CC8B /* MAGTableView.m */; };
+		6A60780A26E7028D0058CC8B /* MAGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60780926E7028D0058CC8B /* MAGCollectionView.m */; };
+		6A60781526E73EF80058CC8B /* MAGShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60781426E73EF80058CC8B /* MAGShareManager.m */; };
+		6A7148FC29E6A23500225F4B /* MAGBookMallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7148FB29E6A23500225F4B /* MAGBookMallModel.m */; };
+		6A768385271B073700E383F5 /* MAGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A768384271B073700E383F5 /* MAGLoginViewController.m */; };
+		6A768389271B075700E383F5 /* MAGLoginViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A768388271B075700E383F5 /* MAGLoginViewController1.m */; };
+		6A7683BB271BDBBF00E383F5 /* LLLaunchScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76838D271BDBBF00E383F5 /* LLLaunchScreen.m */; };
+		6A7683BC271BDBBF00E383F5 /* LLDarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76838E271BDBBF00E383F5 /* LLDarkManager.m */; };
+		6A7683BD271BDBBF00E383F5 /* LLThird.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76838F271BDBBF00E383F5 /* LLThird.m */; };
+		6A7683BE271BDBBF00E383F5 /* LLDarkSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A768390271BDBBF00E383F5 /* LLDarkSource.m */; };
+		6A7683BF271BDBBF00E383F5 /* LLDarkWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A768391271BDBBF00E383F5 /* LLDarkWindow.m */; };
+		6A7683C0271BDBBF00E383F5 /* NSObject+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A768393271BDBBF00E383F5 /* NSObject+Expand.m */; };
+		6A7683C1271BDBBF00E383F5 /* NSObject+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76839A271BDBBF00E383F5 /* NSObject+Refresh.m */; };
+		6A7683C2271BDBBF00E383F5 /* UIViewController+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76839B271BDBBF00E383F5 /* UIViewController+Refresh.m */; };
+		6A7683C3271BDBBF00E383F5 /* UIView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76839C271BDBBF00E383F5 /* UIView+Refresh.m */; };
+		6A7683C4271BDBBF00E383F5 /* NSMutableAttributedString+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A76839F271BDBBF00E383F5 /* NSMutableAttributedString+Refresh.m */; };
+		6A7683C5271BDBBF00E383F5 /* CALayer+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683A2271BDBBF00E383F5 /* CALayer+Refresh.m */; };
+		6A7683C6271BDBBF00E383F5 /* NSMutableDictionary+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683A4271BDBBF00E383F5 /* NSMutableDictionary+Refresh.m */; };
+		6A7683C7271BDBBF00E383F5 /* UIView+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683A9271BDBBF00E383F5 /* UIView+Dark.m */; };
+		6A7683C8271BDBBF00E383F5 /* CATextLayer+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683AA271BDBBF00E383F5 /* CATextLayer+Dark.m */; };
+		6A7683C9271BDBBF00E383F5 /* UITabBarItem+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683AB271BDBBF00E383F5 /* UITabBarItem+Dark.m */; };
+		6A7683CA271BDBBF00E383F5 /* NSObject+LLDark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683AD271BDBBF00E383F5 /* NSObject+LLDark.m */; };
+		6A7683CB271BDBBF00E383F5 /* CALayer+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683AE271BDBBF00E383F5 /* CALayer+Dark.m */; };
+		6A7683CC271BDBBF00E383F5 /* CAGradientLayer+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683B0271BDBBF00E383F5 /* CAGradientLayer+Dark.m */; };
+		6A7683CD271BDBBF00E383F5 /* UIColor+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683B2271BDBBF00E383F5 /* UIColor+Dark.m */; };
+		6A7683CE271BDBBF00E383F5 /* UIImage+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683B3271BDBBF00E383F5 /* UIImage+Dark.m */; };
+		6A7683CF271BDBBF00E383F5 /* CAShapeLayer+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683B4271BDBBF00E383F5 /* CAShapeLayer+Dark.m */; };
+		6A7683D0271BDBBF00E383F5 /* UIImageView+Dark.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683B8271BDBBF00E383F5 /* UIImageView+Dark.m */; };
+		6A7683D6271D539300E383F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A7683D5271D539300E383F5 /* GoogleService-Info.plist */; };
+		6A7683E4271D8AFD00E383F5 /* MAGAppleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7683E3271D8AFD00E383F5 /* MAGAppleManager.m */; };
+		6A7C8C7727277802005AF1DC /* MAGInitializeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C8C7627277802005AF1DC /* MAGInitializeManager.m */; };
+		6A87D9FE2726945B0023B35D /* MAGADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A87D9FD2726945B0023B35D /* MAGADView.m */; };
+		6A87DA01272696190023B35D /* MAGBUAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A87DA00272696190023B35D /* MAGBUAView.m */; };
+		6A87DA032726C5710023B35D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A87DA022726C5710023B35D /* StoreKit.framework */; };
+		6AA92475272017F6001CA27A /* MAGRechargeRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA92474272017F6001CA27A /* MAGRechargeRecordModel.m */; };
+		6AA9247927201F0A001CA27A /* MAGRechargeRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9247827201F0A001CA27A /* MAGRechargeRecordViewController.m */; };
+		6AA9247D27201F75001CA27A /* MAGRechargeRecordViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9247C27201F75001CA27A /* MAGRechargeRecordViewController1.m */; };
+		6AA92480272032A2001CA27A /* MAGRechargeRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9247F272032A2001CA27A /* MAGRechargeRecordTableViewCell.m */; };
+		6AA9248427204025001CA27A /* MAGFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9248327204025001CA27A /* MAGFeedbackViewController.m */; };
+		6AA9248827204032001CA27A /* MAGFeedbackViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9248727204032001CA27A /* MAGFeedbackViewController1.m */; };
+		6AA9248F2720C859001CA27A /* MAGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9248E2720C859001CA27A /* MAGCollectionViewCell.m */; };
+		6AA9249F27214561001CA27A /* MAGDeveloperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA9249E27214561001CA27A /* MAGDeveloperManager.m */; };
+		6AB0177826E958A20029ED2F /* MAGBookReadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0177726E958A20029ED2F /* MAGBookReadModel.m */; };
+		6AB0E56226F80CB30099CABF /* MAGClickAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0E56126F80CB30099CABF /* MAGClickAgent.m */; };
+		6AB70F1426DD0EF5008F5B0F /* MAGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB70F1326DD0EF5008F5B0F /* MAGActivityIndicatorView.m */; };
+		6AB70F1F26DD22B8008F5B0F /* MAGResourceLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB70F1E26DD22B8008F5B0F /* MAGResourceLinkManager.m */; };
+		6AB70F2526DD2D36008F5B0F /* UIImageView+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB70F2426DD2D36008F5B0F /* UIImageView+Magic.m */; };
+		6AB70F6926DDD4AF008F5B0F /* MAGBookCatalogViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB70F6826DDD4AF008F5B0F /* MAGBookCatalogViewController1.m */; };
+		6AB70FC426DDE046008F5B0F /* MAGBookCatalogTableViewCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB70FC326DDE046008F5B0F /* MAGBookCatalogTableViewCell1.m */; };
+		6ABB0E6226D923E2003A923F /* MAGBookDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB0E6126D923E2003A923F /* MAGBookDownloadManager.m */; };
+		6ABB0E6726D9AFA7003A923F /* NSError+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB0E6626D9AFA7003A923F /* NSError+Magic.m */; };
+		6ABC145926F24D9B00CB550B /* MAGBookBuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC145826F24D9B00CB550B /* MAGBookBuyView.m */; };
+		6ABCC274272BFCC300881B64 /* MAGCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCC273272BFCC300881B64 /* MAGCameraManager.m */; };
+		6ABE627C271DE6BD00041FDE /* MAGRechargeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE627B271DE6BD00041FDE /* MAGRechargeViewController1.m */; };
+		6ABE6280271DEB4B00041FDE /* MAGRechargeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE627F271DEB4B00041FDE /* MAGRechargeModel.m */; };
+		6ABE6284271DEE9400041FDE /* MAGIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6283271DEE9400041FDE /* MAGIAPManager.m */; };
+		6ABE6287271E638300041FDE /* MAGProductsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6286271E638300041FDE /* MAGProductsRequest.m */; };
+		6ABE628A271E6EAD00041FDE /* MAGRechargeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6289271E6EAD00041FDE /* MAGRechargeTableViewCell.m */; };
+		6AC38C8A279EA2BB00DE5BB2 /* MAGAccountCancellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC38C89279EA2BB00DE5BB2 /* MAGAccountCancellationViewController.m */; };
+		6AC38C8E279EA34F00DE5BB2 /* MAGAccountCancellationViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC38C8D279EA34F00DE5BB2 /* MAGAccountCancellationViewController1.m */; };
+		6AC38C92279ED18400DE5BB2 /* UITextView+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC38C91279ED18400DE5BB2 /* UITextView+Magic.m */; };
+		6ACE894826EC1DA1008F4412 /* UIColor+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE894726EC1DA1008F4412 /* UIColor+Magic.m */; };
+		6AD17B5826E1A0D500B05EF8 /* MAGLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD17B5726E1A0D500B05EF8 /* MAGLabel.m */; };
+		6AD17BA726E211E100B05EF8 /* MAGUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD17BA626E211E100B05EF8 /* MAGUserDefaults.m */; };
+		6AD17BB026E222C700B05EF8 /* MAGSliderSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD17BAC26E222C700B05EF8 /* MAGSliderSetting.m */; };
+		6AD17BB126E222C700B05EF8 /* MAGSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD17BAF26E222C700B05EF8 /* MAGSliderView.m */; };
+		6AD17BB826E3258000B05EF8 /* libPods-MagicView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7F99184CD79B70D7672C1A /* libPods-MagicView.a */; };
+		6AD79AB326946F6E00CDCEBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79AB226946F6E00CDCEBE /* AppDelegate.m */; };
+		6AD79ABE26946F6F00CDCEBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD79ABD26946F6F00CDCEBE /* Assets.xcassets */; };
+		6AD79AC126946F6F00CDCEBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD79ABF26946F6F00CDCEBE /* LaunchScreen.storyboard */; };
+		6AD79AC426946F6F00CDCEBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79AC326946F6F00CDCEBE /* main.m */; };
+		6AD79AD4269470CE00CDCEBE /* WXYZ_MainTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79AD3269470CE00CDCEBE /* WXYZ_MainTabbarViewController.m */; };
+		6AD79ADC269471A500CDCEBE /* WXYZ_RackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79ADB269471A500CDCEBE /* WXYZ_RackViewController.m */; };
+		6AD79AE1269471AF00CDCEBE /* WXYZ_MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79AE0269471AF00CDCEBE /* WXYZ_MallViewController.m */; };
+		6AD79AE5269471C700CDCEBE /* WXYZ_DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79AE4269471C700CDCEBE /* WXYZ_DiscoverViewController.m */; };
+		6AD79AE9269471D300CDCEBE /* WXYZ_MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79AE8269471D300CDCEBE /* WXYZ_MineViewController.m */; };
+		6AD79AF72694795D00CDCEBE /* MAGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79AF62694795D00CDCEBE /* MAGViewController.m */; };
+		6AD79B15269479EA00CDCEBE /* MAGNavigationBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79B14269479EA00CDCEBE /* MAGNavigationBarViewController.m */; };
+		6AD79B1B26947A2900CDCEBE /* MAGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79B1A26947A2900CDCEBE /* MAGNavigationBar.m */; };
+		6AD79B23269480FF00CDCEBE /* MAGUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79B22269480FF00CDCEBE /* MAGUIFactory.m */; };
+		6AD79B7D26948C4F00CDCEBE /* MAGTableSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD79B7C26948C4F00CDCEBE /* MAGTableSectionView.m */; };
+		6AD9436826F2AC8000DEA83C /* MAGBookBuyView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9436726F2AC8000DEA83C /* MAGBookBuyView1.m */; };
+		6AD9437A26F2D6F000DEA83C /* MAGPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9437926F2D6F000DEA83C /* MAGPurchaseManager.m */; };
+		6AD948F426F4D9C800DEA83C /* MAGBookRetryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD948F326F4D9C800DEA83C /* MAGBookRetryView.m */; };
+		6AD948FA26F4DCEC00DEA83C /* UIButton+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD948F926F4DCEC00DEA83C /* UIButton+Magic.m */; };
+		6AE6CF9D269604D700C394F8 /* MAGUITools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CF9C269604D700C394F8 /* MAGUITools.m */; };
+		6AE6CFBA26960F6600C394F8 /* UIImage+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFB926960F6600C394F8 /* UIImage+Magic.m */; };
+		6AE6CFC42696164F00C394F8 /* UIViewController+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFC32696164F00C394F8 /* UIViewController+Magic.m */; };
+		6AE6CFC926961B3D00C394F8 /* MAGAbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFC826961B3D00C394F8 /* MAGAbstractViewController.m */; };
+		6AE6CFCF2696212000C394F8 /* MAGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFCE2696212000C394F8 /* MAGNavigationController.m */; };
+		6AE6CFD9269625D100C394F8 /* MAGRackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFD8269625D100C394F8 /* MAGRackViewController.m */; };
+		6AE6CFE72696260E00C394F8 /* MAGMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFE62696260E00C394F8 /* MAGMineViewController.m */; };
+		6AE6CFF62696293500C394F8 /* MAGNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFEB2696293400C394F8 /* MAGNetworkReachabilityManager.m */; };
+		6AE6CFF72696293500C394F8 /* MAGNetworkRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFEC2696293400C394F8 /* MAGNetworkRequestManager.m */; };
+		6AE6CFF82696293500C394F8 /* MAGNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6CFEF2696293400C394F8 /* MAGNetworkCache.m */; };
+		6AE6D00926962EB800C394F8 /* NSString+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D00826962EB800C394F8 /* NSString+Magic.m */; };
+		6AE6D00F2696331300C394F8 /* NSData+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D00E2696331300C394F8 /* NSData+Magic.m */; };
+		6AE6D02326963FCD00C394F8 /* MAGUserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D02226963FCD00C394F8 /* MAGUserInfoManager.m */; };
+		6AE6D0292696402100C394F8 /* MAGUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0282696402100C394F8 /* MAGUserInfoModel.m */; };
+		6AE6D02F269692C000C394F8 /* MAGFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D02E269692C000C394F8 /* MAGFileManager.m */; };
+		6AE6D03E26969DE100C394F8 /* NSObject+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D03D26969DE100C394F8 /* NSObject+Magic.m */; };
+		6AE6D0642696DA0A00C394F8 /* WXYZ_UtilsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0632696DA0A00C394F8 /* WXYZ_UtilsHelper.m */; };
+		6AE6D0682696DB3900C394F8 /* WXYZ_SystemInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0672696DB3900C394F8 /* WXYZ_SystemInfoManager.m */; };
+		6AE6D06D2696DCE700C394F8 /* MAGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D06C2696DCE700C394F8 /* MAGTabBarController.m */; };
+		6AE6D0D72698265F00C394F8 /* MAGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0D62698265F00C394F8 /* MAGTableViewCell.m */; };
+		6AE6D0E3269828AD00C394F8 /* UITableView+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0E2269828AD00C394F8 /* UITableView+Magic.m */; };
+		6AE6D0EA2698296A00C394F8 /* UICollectionView+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0E92698296A00C394F8 /* UICollectionView+Magic.m */; };
+		6AE6D0EF26982D5200C394F8 /* UILabel+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0EE26982D5200C394F8 /* UILabel+Magic.m */; };
+		6AE6D0F526982DBD00C394F8 /* YYLabel+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D0F426982DBD00C394F8 /* YYLabel+Magic.m */; };
+		6AE6D1B326984C0F00C394F8 /* MAGBookReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D1B226984C0F00C394F8 /* MAGBookReaderViewController.m */; };
+		6AE6D1B826984EA200C394F8 /* MAGBookRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D1B726984EA200C394F8 /* MAGBookRecordManager.m */; };
+		6AE6D1BD2698508B00C394F8 /* MAGBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE6D1BC2698508B00C394F8 /* MAGBookModel.m */; };
+		6AEACC402721586900181AA3 /* MAGAboutUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC3F2721586900181AA3 /* MAGAboutUSViewController.m */; };
+		6AEACC442721588200181AA3 /* MAGAboutUSViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC432721588200181AA3 /* MAGAboutUSViewController1.m */; };
+		6AEACC482721832200181AA3 /* MAGReadingRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC472721832200181AA3 /* MAGReadingRecordViewController.m */; };
+		6AEACC4C2721833300181AA3 /* MAGReadingRecordViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC4B2721833300181AA3 /* MAGReadingRecordViewController1.m */; };
+		6AEACC4F272185B900181AA3 /* MAGReadingRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC4E272185B900181AA3 /* MAGReadingRecordTableViewCell.m */; };
+		6AEACC8B272253F400181AA3 /* MAGDarkModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC8A272253F400181AA3 /* MAGDarkModeViewController.m */; };
+		6AEACC8F2722540600181AA3 /* MAGDarkModeViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC8E2722540600181AA3 /* MAGDarkModeViewController1.m */; };
+		6AEACC922722595000181AA3 /* MAGDarkModeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACC912722595000181AA3 /* MAGDarkModeTableViewCell.m */; };
+		6AEACCB72723EBCE00181AA3 /* MAGBookCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEACCB62723EBCE00181AA3 /* MAGBookCatalogViewController.m */; };
+		6AEBFE6B26F192B300638EFD /* MAGBookPageContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEBFE6A26F192B300638EFD /* MAGBookPageContentModel.m */; };
+		6AEBFE7526F1A63D00638EFD /* MAGPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEBFE7426F1A63D00638EFD /* MAGPageViewController.m */; };
+		6AF5E4E326D4995400EAB6BC /* MAGBookCatalogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5E4E226D4995400EAB6BC /* MAGBookCatalogModel.m */; };
+		6AF5EB6726D66BEF00EAB6BC /* UIView+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5EB6626D66BEF00EAB6BC /* UIView+Magic.m */; };
+		6AF5EB6D26D66C2D00EAB6BC /* MAGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5EB6B26D66C2D00EAB6BC /* MAGProgressHUD.m */; };
+		6AF5EC7C26D7B0FA00EAB6BC /* MAGBookChapterContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5EC7B26D7B0FA00EAB6BC /* MAGBookChapterContentModel.m */; };
+		6AF5EC8126D7EBA600EAB6BC /* NSAttributedString+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5EC8026D7EBA600EAB6BC /* NSAttributedString+Magic.m */; };
+		6AFC773F26F73A080098099C /* CALayer+Magic.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC773E26F73A080098099C /* CALayer+Magic.m */; };
+		AD66F8CA285975CE005A7B4A /* WXYZ_ViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD66F8C9285975CE005A7B4A /* WXYZ_ViewHelper.m */; };
+		ADF7B01E2851E4330073B83D /* MAGBookChannelsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF7B01D2851E4330073B83D /* MAGBookChannelsDetailModel.m */; };
+		ADF7B0212851E44A0073B83D /* MAGBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF7B0202851E4490073B83D /* MAGBannerModel.m */; };
+		ADF7B0242851E4750073B83D /* MAGBookChannelsDetailLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF7B0232851E4750073B83D /* MAGBookChannelsDetailLabelModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031CEFD909F2B1FD81CAF6FA /* Pods-MagicView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicView.debug.xcconfig"; path = "Target Support Files/Pods-MagicView/Pods-MagicView.debug.xcconfig"; sourceTree = "<group>"; };
+		17F0487250A9049B0905AE5B /* Pods-MagicView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicView.release.xcconfig"; path = "Target Support Files/Pods-MagicView/Pods-MagicView.release.xcconfig"; sourceTree = "<group>"; };
+		3B7F99184CD79B70D7672C1A /* libPods-MagicView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0251B526A16E50007F2428 /* MAGBookAnimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookAnimateViewController.h; sourceTree = "<group>"; };
+		6A0251B626A16E50007F2428 /* MAGBookAnimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookAnimateViewController.m; sourceTree = "<group>"; };
+		6A0251DB26A17F44007F2428 /* MAGBookSimulationPageAnimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookSimulationPageAnimateViewController.h; sourceTree = "<group>"; };
+		6A0251DC26A17F44007F2428 /* MAGBookSimulationPageAnimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookSimulationPageAnimateViewController.m; sourceTree = "<group>"; };
+		6A0251DF26A1804A007F2428 /* MAGBookReaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookReaderManager.h; sourceTree = "<group>"; };
+		6A0251E026A1804A007F2428 /* MAGBookReaderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookReaderManager.m; sourceTree = "<group>"; };
+		6A0251E626A1A889007F2428 /* MAGView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGView.h; sourceTree = "<group>"; };
+		6A0251E726A1A889007F2428 /* MAGView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGView.m; sourceTree = "<group>"; };
+		6A02520326A1AAD6007F2428 /* MAGBookContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookContentViewController.h; sourceTree = "<group>"; };
+		6A02520426A1AAD6007F2428 /* MAGBookContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookContentViewController.m; sourceTree = "<group>"; };
+		6A02520726A1AAEA007F2428 /* MAGBookContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookContentView.h; sourceTree = "<group>"; };
+		6A02520826A1AAEA007F2428 /* MAGBookContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookContentView.m; sourceTree = "<group>"; };
+		6A02520B26A1AC17007F2428 /* MAGBookManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookManager.h; sourceTree = "<group>"; };
+		6A02520C26A1AC17007F2428 /* MAGBookManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookManager.m; sourceTree = "<group>"; };
+		6A15844826CF5F2A00ABA351 /* NSDictionary+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Magic.h"; sourceTree = "<group>"; };
+		6A15844926CF5F2A00ABA351 /* NSDictionary+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Magic.m"; sourceTree = "<group>"; };
+		6A15849526CF8D7800ABA351 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		6A15858926D115C400ABA351 /* NSArray+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Magic.h"; sourceTree = "<group>"; };
+		6A15858A26D115C400ABA351 /* NSArray+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Magic.m"; sourceTree = "<group>"; };
+		6A15860326D27AF300ABA351 /* MAGNetworkDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGNetworkDownloadManager.h; sourceTree = "<group>"; };
+		6A15860426D27AF300ABA351 /* MAGNetworkDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGNetworkDownloadManager.m; sourceTree = "<group>"; };
+		6A1CA04626FAFD7400DCC2C4 /* MAGStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGStarView.h; sourceTree = "<group>"; };
+		6A1CA04726FAFD7500DCC2C4 /* MAGStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGStarView.m; sourceTree = "<group>"; };
+		6A1CA04A26FB244A00DCC2C4 /* UIScrollView+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Magic.h"; sourceTree = "<group>"; };
+		6A1CA04B26FB244A00DCC2C4 /* UIScrollView+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Magic.m"; sourceTree = "<group>"; };
+		6A1CA04D26FB24BC00DCC2C4 /* MAGRefreshSafeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRefreshSafeHeader.h; sourceTree = "<group>"; };
+		6A1CA04E26FB24BC00DCC2C4 /* MAGRefreshSafeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRefreshSafeHeader.m; sourceTree = "<group>"; };
+		6A1CA35B26FB74C200DCC2C4 /* MAGBookMallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookMallViewController.h; sourceTree = "<group>"; };
+		6A1CA35C26FB74C200DCC2C4 /* MAGBookMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookMallViewController.m; sourceTree = "<group>"; };
+		6A324758272CC496004CDAE7 /* MAGPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGPhotoManager.h; sourceTree = "<group>"; };
+		6A324759272CC496004CDAE7 /* MAGPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGPhotoManager.m; sourceTree = "<group>"; };
+		6A3675C8271D9EE3003C3A8F /* MAGWechatManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGWechatManager.h; sourceTree = "<group>"; };
+		6A3675C9271D9EE3003C3A8F /* MAGWechatManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGWechatManager.m; sourceTree = "<group>"; };
+		6A3675D2271DAD20003C3A8F /* MAGQQManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGQQManager.h; sourceTree = "<group>"; };
+		6A3675D3271DAD20003C3A8F /* MAGQQManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGQQManager.m; sourceTree = "<group>"; };
+		6A3675DB271DE5F0003C3A8F /* MAGRechargeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeViewController.h; sourceTree = "<group>"; };
+		6A3675DC271DE5F0003C3A8F /* MAGRechargeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeViewController.m; sourceTree = "<group>"; };
+		6A5CD6C326DC4311004F4DD3 /* MAGBookReaderMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookReaderMenuView.h; sourceTree = "<group>"; };
+		6A5CD6C426DC4311004F4DD3 /* MAGBookReaderMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookReaderMenuView.m; sourceTree = "<group>"; };
+		6A5CD6CA26DC53DF004F4DD3 /* MAGBookReaderMenuView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookReaderMenuView1.h; sourceTree = "<group>"; };
+		6A5CD6CB26DC53DF004F4DD3 /* MAGBookReaderMenuView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookReaderMenuView1.m; sourceTree = "<group>"; };
+		6A5CD76E26DCDBF4004F4DD3 /* MAGBookListenManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookListenManager.h; sourceTree = "<group>"; };
+		6A5CD76F26DCDBF4004F4DD3 /* MAGBookListenManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookListenManager.m; sourceTree = "<group>"; };
+		6A5E6AF926DF9F7C004611B9 /* MAGBookContentView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookContentView1.h; sourceTree = "<group>"; };
+		6A5E6AFA26DF9F7C004611B9 /* MAGBookContentView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookContentView1.m; sourceTree = "<group>"; };
+		6A6076E726E3965E0058CC8B /* YYAnimatedImageView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYAnimatedImageView+Util.h"; sourceTree = "<group>"; };
+		6A6076E826E3965E0058CC8B /* YYAnimatedImageView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYAnimatedImageView+Util.m"; sourceTree = "<group>"; };
+		6A6076EE26E398710058CC8B /* UIFont+Magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Magic.h"; sourceTree = "<group>"; };
+		6A6076EF26E398710058CC8B /* UIFont+Magic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Magic.m"; sourceTree = "<group>"; };
+		6A6077D026E6FF800058CC8B /* MAGYYLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGYYLabel.h; sourceTree = "<group>"; };
+		6A6077D126E6FF800058CC8B /* MAGYYLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGYYLabel.m; sourceTree = "<group>"; };
+		6A6077D626E6FFB30058CC8B /* MAGImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGImageView.h; sourceTree = "<group>"; };
+		6A6077D726E6FFB30058CC8B /* MAGImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGImageView.m; sourceTree = "<group>"; };
+		6A6077DC26E6FFED0058CC8B /* MAGAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAnimatedImageView.h; sourceTree = "<group>"; };
+		6A6077DD26E6FFED0058CC8B /* MAGAnimatedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAnimatedImageView.m; sourceTree = "<group>"; };
+		6A6077E226E700190058CC8B /* MAGButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGButton.h; sourceTree = "<group>"; };
+		6A6077E326E700190058CC8B /* MAGButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGButton.m; sourceTree = "<group>"; };
+		6A6077EA26E700AB0058CC8B /* MAGTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGTextField.h; sourceTree = "<group>"; };
+		6A6077EB26E700AB0058CC8B /* MAGTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTextField.m; sourceTree = "<group>"; };
+		6A6077F026E700E70058CC8B /* MAGScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGScrollView.h; sourceTree = "<group>"; };
+		6A6077F126E700E70058CC8B /* MAGScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGScrollView.m; sourceTree = "<group>"; };
+		6A6077F626E7011E0058CC8B /* MAGTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGTextView.h; sourceTree = "<group>"; };
+		6A6077F726E7011E0058CC8B /* MAGTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTextView.m; sourceTree = "<group>"; };
+		6A6077FC26E701A80058CC8B /* MAGYYTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGYYTextView.h; sourceTree = "<group>"; };
+		6A6077FD26E701A80058CC8B /* MAGYYTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGYYTextView.m; sourceTree = "<group>"; };
+		6A60780226E702590058CC8B /* MAGTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGTableView.h; sourceTree = "<group>"; };
+		6A60780326E702590058CC8B /* MAGTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTableView.m; sourceTree = "<group>"; };
+		6A60780826E7028D0058CC8B /* MAGCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGCollectionView.h; sourceTree = "<group>"; };
+		6A60780926E7028D0058CC8B /* MAGCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGCollectionView.m; sourceTree = "<group>"; };
+		6A60781326E73EF80058CC8B /* MAGShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGShareManager.h; sourceTree = "<group>"; };
+		6A60781426E73EF80058CC8B /* MAGShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGShareManager.m; sourceTree = "<group>"; };
+		6A7148FA29E6A23500225F4B /* MAGBookMallModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookMallModel.h; sourceTree = "<group>"; };
+		6A7148FB29E6A23500225F4B /* MAGBookMallModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookMallModel.m; sourceTree = "<group>"; };
+		6A768383271B073700E383F5 /* MAGLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGLoginViewController.h; sourceTree = "<group>"; };
+		6A768384271B073700E383F5 /* MAGLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGLoginViewController.m; sourceTree = "<group>"; };
+		6A768387271B075700E383F5 /* MAGLoginViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGLoginViewController1.h; sourceTree = "<group>"; };
+		6A768388271B075700E383F5 /* MAGLoginViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGLoginViewController1.m; sourceTree = "<group>"; };
+		6A76838C271BDBBF00E383F5 /* NSObject+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Expand.h"; sourceTree = "<group>"; };
+		6A76838D271BDBBF00E383F5 /* LLLaunchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLaunchScreen.m; sourceTree = "<group>"; };
+		6A76838E271BDBBF00E383F5 /* LLDarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDarkManager.m; sourceTree = "<group>"; };
+		6A76838F271BDBBF00E383F5 /* LLThird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLThird.m; sourceTree = "<group>"; };
+		6A768390271BDBBF00E383F5 /* LLDarkSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDarkSource.m; sourceTree = "<group>"; };
+		6A768391271BDBBF00E383F5 /* LLDarkWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDarkWindow.m; sourceTree = "<group>"; };
+		6A768392271BDBBF00E383F5 /* LLLaunchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLaunchScreen.h; sourceTree = "<group>"; };
+		6A768393271BDBBF00E383F5 /* NSObject+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Expand.m"; sourceTree = "<group>"; };
+		6A768394271BDBBF00E383F5 /* LLDarkDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDarkDefine.h; sourceTree = "<group>"; };
+		6A768395271BDBBF00E383F5 /* LLDarkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDarkConfig.h; sourceTree = "<group>"; };
+		6A768396271BDBBF00E383F5 /* LLDarkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDarkManager.h; sourceTree = "<group>"; };
+		6A768397271BDBBF00E383F5 /* LLDarkSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDarkSource.h; sourceTree = "<group>"; };
+		6A768398271BDBBF00E383F5 /* LLDarkWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDarkWindow.h; sourceTree = "<group>"; };
+		6A76839A271BDBBF00E383F5 /* NSObject+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Refresh.m"; sourceTree = "<group>"; };
+		6A76839B271BDBBF00E383F5 /* UIViewController+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Refresh.m"; sourceTree = "<group>"; };
+		6A76839C271BDBBF00E383F5 /* UIView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Refresh.m"; sourceTree = "<group>"; };
+		6A76839D271BDBBF00E383F5 /* CALayer+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Refresh.h"; sourceTree = "<group>"; };
+		6A76839E271BDBBF00E383F5 /* NSMutableDictionary+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Refresh.h"; sourceTree = "<group>"; };
+		6A76839F271BDBBF00E383F5 /* NSMutableAttributedString+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Refresh.m"; sourceTree = "<group>"; };
+		6A7683A0271BDBBF00E383F5 /* UIView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Refresh.h"; sourceTree = "<group>"; };
+		6A7683A1271BDBBF00E383F5 /* NSObject+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Refresh.h"; sourceTree = "<group>"; };
+		6A7683A2271BDBBF00E383F5 /* CALayer+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Refresh.m"; sourceTree = "<group>"; };
+		6A7683A3271BDBBF00E383F5 /* NSMutableAttributedString+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Refresh.h"; sourceTree = "<group>"; };
+		6A7683A4271BDBBF00E383F5 /* NSMutableDictionary+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Refresh.m"; sourceTree = "<group>"; };
+		6A7683A5271BDBBF00E383F5 /* LLDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDark.h; sourceTree = "<group>"; };
+		6A7683A7271BDBBF00E383F5 /* UIImage+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Dark.h"; sourceTree = "<group>"; };
+		6A7683A8271BDBBF00E383F5 /* UIColor+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Dark.h"; sourceTree = "<group>"; };
+		6A7683A9271BDBBF00E383F5 /* UIView+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Dark.m"; sourceTree = "<group>"; };
+		6A7683AA271BDBBF00E383F5 /* CATextLayer+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+Dark.m"; sourceTree = "<group>"; };
+		6A7683AB271BDBBF00E383F5 /* UITabBarItem+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+Dark.m"; sourceTree = "<group>"; };
+		6A7683AC271BDBBF00E383F5 /* CAShapeLayer+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Dark.h"; sourceTree = "<group>"; };
+		6A7683AD271BDBBF00E383F5 /* NSObject+LLDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LLDark.m"; sourceTree = "<group>"; };
+		6A7683AE271BDBBF00E383F5 /* CALayer+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Dark.m"; sourceTree = "<group>"; };
+		6A7683AF271BDBBF00E383F5 /* UIImageView+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Dark.h"; sourceTree = "<group>"; };
+		6A7683B0271BDBBF00E383F5 /* CAGradientLayer+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+Dark.m"; sourceTree = "<group>"; };
+		6A7683B1271BDBBF00E383F5 /* UIView+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Dark.h"; sourceTree = "<group>"; };
+		6A7683B2271BDBBF00E383F5 /* UIColor+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Dark.m"; sourceTree = "<group>"; };
+		6A7683B3271BDBBF00E383F5 /* UIImage+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Dark.m"; sourceTree = "<group>"; };
+		6A7683B4271BDBBF00E383F5 /* CAShapeLayer+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Dark.m"; sourceTree = "<group>"; };
+		6A7683B5271BDBBF00E383F5 /* UITabBarItem+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+Dark.h"; sourceTree = "<group>"; };
+		6A7683B6271BDBBF00E383F5 /* CATextLayer+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+Dark.h"; sourceTree = "<group>"; };
+		6A7683B7271BDBBF00E383F5 /* NSObject+LLDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LLDark.h"; sourceTree = "<group>"; };
+		6A7683B8271BDBBF00E383F5 /* UIImageView+Dark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Dark.m"; sourceTree = "<group>"; };
+		6A7683B9271BDBBF00E383F5 /* CAGradientLayer+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+Dark.h"; sourceTree = "<group>"; };
+		6A7683BA271BDBBF00E383F5 /* CALayer+Dark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Dark.h"; sourceTree = "<group>"; };
+		6A7683D1271C1FA100E383F5 /* MagicView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicView.entitlements; sourceTree = "<group>"; };
+		6A7683D5271D539300E383F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A7683E2271D8AFD00E383F5 /* MAGAppleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAppleManager.h; sourceTree = "<group>"; };
+		6A7683E3271D8AFD00E383F5 /* MAGAppleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAppleManager.m; sourceTree = "<group>"; };
+		6A7C8C7527277802005AF1DC /* MAGInitializeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGInitializeManager.h; sourceTree = "<group>"; };
+		6A7C8C7627277802005AF1DC /* MAGInitializeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGInitializeManager.m; sourceTree = "<group>"; };
+		6A87D9FC2726945B0023B35D /* MAGADView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGADView.h; sourceTree = "<group>"; };
+		6A87D9FD2726945B0023B35D /* MAGADView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGADView.m; sourceTree = "<group>"; };
+		6A87D9FF272696190023B35D /* MAGBUAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBUAView.h; sourceTree = "<group>"; };
+		6A87DA00272696190023B35D /* MAGBUAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBUAView.m; sourceTree = "<group>"; };
+		6A87DA022726C5710023B35D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6AA92473272017F6001CA27A /* MAGRechargeRecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeRecordModel.h; sourceTree = "<group>"; };
+		6AA92474272017F6001CA27A /* MAGRechargeRecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeRecordModel.m; sourceTree = "<group>"; };
+		6AA9247727201F0A001CA27A /* MAGRechargeRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeRecordViewController.h; sourceTree = "<group>"; };
+		6AA9247827201F0A001CA27A /* MAGRechargeRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeRecordViewController.m; sourceTree = "<group>"; };
+		6AA9247B27201F75001CA27A /* MAGRechargeRecordViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeRecordViewController1.h; sourceTree = "<group>"; };
+		6AA9247C27201F75001CA27A /* MAGRechargeRecordViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeRecordViewController1.m; sourceTree = "<group>"; };
+		6AA9247E272032A2001CA27A /* MAGRechargeRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeRecordTableViewCell.h; sourceTree = "<group>"; };
+		6AA9247F272032A2001CA27A /* MAGRechargeRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeRecordTableViewCell.m; sourceTree = "<group>"; };
+		6AA9248227204025001CA27A /* MAGFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGFeedbackViewController.h; sourceTree = "<group>"; };
+		6AA9248327204025001CA27A /* MAGFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGFeedbackViewController.m; sourceTree = "<group>"; };
+		6AA9248627204032001CA27A /* MAGFeedbackViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGFeedbackViewController1.h; sourceTree = "<group>"; };
+		6AA9248727204032001CA27A /* MAGFeedbackViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGFeedbackViewController1.m; sourceTree = "<group>"; };
+		6AA9248D2720C859001CA27A /* MAGCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGCollectionViewCell.h; sourceTree = "<group>"; };
+		6AA9248E2720C859001CA27A /* MAGCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGCollectionViewCell.m; sourceTree = "<group>"; };
+		6AA9249D27214561001CA27A /* MAGDeveloperManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGDeveloperManager.h; sourceTree = "<group>"; };
+		6AA9249E27214561001CA27A /* MAGDeveloperManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGDeveloperManager.m; sourceTree = "<group>"; };
+		6AB0177626E958A20029ED2F /* MAGBookReadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookReadModel.h; sourceTree = "<group>"; };
+		6AB0177726E958A20029ED2F /* MAGBookReadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookReadModel.m; sourceTree = "<group>"; };
+		6AB0E56026F80CB30099CABF /* MAGClickAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGClickAgent.h; sourceTree = "<group>"; };
+		6AB0E56126F80CB30099CABF /* MAGClickAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGClickAgent.m; sourceTree = "<group>"; };
+		6AB70F1226DD0EF5008F5B0F /* MAGActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGActivityIndicatorView.h; sourceTree = "<group>"; };
+		6AB70F1326DD0EF5008F5B0F /* MAGActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGActivityIndicatorView.m; sourceTree = "<group>"; };
+		6AB70F1D26DD22B8008F5B0F /* MAGResourceLinkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGResourceLinkManager.h; sourceTree = "<group>"; };
+		6AB70F1E26DD22B8008F5B0F /* MAGResourceLinkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGResourceLinkManager.m; sourceTree = "<group>"; };
+		6AB70F2326DD2D36008F5B0F /* UIImageView+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Magic.h"; sourceTree = "<group>"; };
+		6AB70F2426DD2D36008F5B0F /* UIImageView+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Magic.m"; sourceTree = "<group>"; };
+		6AB70F6726DDD4AF008F5B0F /* MAGBookCatalogViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookCatalogViewController1.h; sourceTree = "<group>"; };
+		6AB70F6826DDD4AF008F5B0F /* MAGBookCatalogViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookCatalogViewController1.m; sourceTree = "<group>"; };
+		6AB70FC226DDE046008F5B0F /* MAGBookCatalogTableViewCell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookCatalogTableViewCell1.h; sourceTree = "<group>"; };
+		6AB70FC326DDE046008F5B0F /* MAGBookCatalogTableViewCell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookCatalogTableViewCell1.m; sourceTree = "<group>"; };
+		6ABB0E6026D923E2003A923F /* MAGBookDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookDownloadManager.h; sourceTree = "<group>"; };
+		6ABB0E6126D923E2003A923F /* MAGBookDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookDownloadManager.m; sourceTree = "<group>"; };
+		6ABB0E6526D9AFA7003A923F /* NSError+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+Magic.h"; sourceTree = "<group>"; };
+		6ABB0E6626D9AFA7003A923F /* NSError+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+Magic.m"; sourceTree = "<group>"; };
+		6ABC145726F24D9B00CB550B /* MAGBookBuyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookBuyView.h; sourceTree = "<group>"; };
+		6ABC145826F24D9B00CB550B /* MAGBookBuyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookBuyView.m; sourceTree = "<group>"; };
+		6ABCC203272B6A0F00881B64 /* MAGImageDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGImageDefine.h; sourceTree = "<group>"; };
+		6ABCC272272BFCC300881B64 /* MAGCameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGCameraManager.h; sourceTree = "<group>"; };
+		6ABCC273272BFCC300881B64 /* MAGCameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGCameraManager.m; sourceTree = "<group>"; };
+		6ABE627A271DE6BD00041FDE /* MAGRechargeViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeViewController1.h; sourceTree = "<group>"; };
+		6ABE627B271DE6BD00041FDE /* MAGRechargeViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeViewController1.m; sourceTree = "<group>"; };
+		6ABE627E271DEB4B00041FDE /* MAGRechargeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeModel.h; sourceTree = "<group>"; };
+		6ABE627F271DEB4B00041FDE /* MAGRechargeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeModel.m; sourceTree = "<group>"; };
+		6ABE6282271DEE9400041FDE /* MAGIAPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGIAPManager.h; sourceTree = "<group>"; };
+		6ABE6283271DEE9400041FDE /* MAGIAPManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGIAPManager.m; sourceTree = "<group>"; };
+		6ABE6285271E638300041FDE /* MAGProductsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGProductsRequest.h; sourceTree = "<group>"; };
+		6ABE6286271E638300041FDE /* MAGProductsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGProductsRequest.m; sourceTree = "<group>"; };
+		6ABE6288271E6EAD00041FDE /* MAGRechargeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRechargeTableViewCell.h; sourceTree = "<group>"; };
+		6ABE6289271E6EAD00041FDE /* MAGRechargeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRechargeTableViewCell.m; sourceTree = "<group>"; };
+		6AC38C88279EA2BB00DE5BB2 /* MAGAccountCancellationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAccountCancellationViewController.h; sourceTree = "<group>"; };
+		6AC38C89279EA2BB00DE5BB2 /* MAGAccountCancellationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAccountCancellationViewController.m; sourceTree = "<group>"; };
+		6AC38C8C279EA34F00DE5BB2 /* MAGAccountCancellationViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAccountCancellationViewController1.h; sourceTree = "<group>"; };
+		6AC38C8D279EA34F00DE5BB2 /* MAGAccountCancellationViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAccountCancellationViewController1.m; sourceTree = "<group>"; };
+		6AC38C90279ED18400DE5BB2 /* UITextView+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Magic.h"; sourceTree = "<group>"; };
+		6AC38C91279ED18400DE5BB2 /* UITextView+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Magic.m"; sourceTree = "<group>"; };
+		6ACE894626EC1DA1008F4412 /* UIColor+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Magic.h"; sourceTree = "<group>"; };
+		6ACE894726EC1DA1008F4412 /* UIColor+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Magic.m"; sourceTree = "<group>"; };
+		6AD17B5626E1A0D500B05EF8 /* MAGLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGLabel.h; sourceTree = "<group>"; };
+		6AD17B5726E1A0D500B05EF8 /* MAGLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGLabel.m; sourceTree = "<group>"; };
+		6AD17BA526E211E100B05EF8 /* MAGUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGUserDefaults.h; sourceTree = "<group>"; };
+		6AD17BA626E211E100B05EF8 /* MAGUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGUserDefaults.m; sourceTree = "<group>"; };
+		6AD17BAC26E222C700B05EF8 /* MAGSliderSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGSliderSetting.m; sourceTree = "<group>"; };
+		6AD17BAD26E222C700B05EF8 /* MAGSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGSliderView.h; sourceTree = "<group>"; };
+		6AD17BAE26E222C700B05EF8 /* MAGSliderSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGSliderSetting.h; sourceTree = "<group>"; };
+		6AD17BAF26E222C700B05EF8 /* MAGSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGSliderView.m; sourceTree = "<group>"; };
+		6AD79AAE26946F6E00CDCEBE /* MagicView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD79AB126946F6E00CDCEBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AD79AB226946F6E00CDCEBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AD79ABD26946F6F00CDCEBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD79AC026946F6F00CDCEBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AD79AC226946F6F00CDCEBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD79AC326946F6F00CDCEBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AD79AD2269470CE00CDCEBE /* WXYZ_MainTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_MainTabbarViewController.h; sourceTree = "<group>"; };
+		6AD79AD3269470CE00CDCEBE /* WXYZ_MainTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_MainTabbarViewController.m; sourceTree = "<group>"; };
+		6AD79ADA269471A500CDCEBE /* WXYZ_RackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_RackViewController.h; sourceTree = "<group>"; };
+		6AD79ADB269471A500CDCEBE /* WXYZ_RackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_RackViewController.m; sourceTree = "<group>"; };
+		6AD79ADF269471AF00CDCEBE /* WXYZ_MallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_MallViewController.h; sourceTree = "<group>"; };
+		6AD79AE0269471AF00CDCEBE /* WXYZ_MallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_MallViewController.m; sourceTree = "<group>"; };
+		6AD79AE3269471C700CDCEBE /* WXYZ_DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_DiscoverViewController.h; sourceTree = "<group>"; };
+		6AD79AE4269471C700CDCEBE /* WXYZ_DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_DiscoverViewController.m; sourceTree = "<group>"; };
+		6AD79AE7269471D300CDCEBE /* WXYZ_MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_MineViewController.h; sourceTree = "<group>"; };
+		6AD79AE8269471D300CDCEBE /* WXYZ_MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_MineViewController.m; sourceTree = "<group>"; };
+		6AD79AF52694795D00CDCEBE /* MAGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGViewController.h; sourceTree = "<group>"; };
+		6AD79AF62694795D00CDCEBE /* MAGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGViewController.m; sourceTree = "<group>"; };
+		6AD79B13269479EA00CDCEBE /* MAGNavigationBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGNavigationBarViewController.h; sourceTree = "<group>"; };
+		6AD79B14269479EA00CDCEBE /* MAGNavigationBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGNavigationBarViewController.m; sourceTree = "<group>"; };
+		6AD79B1926947A2900CDCEBE /* MAGNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGNavigationBar.h; sourceTree = "<group>"; };
+		6AD79B1A26947A2900CDCEBE /* MAGNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGNavigationBar.m; sourceTree = "<group>"; };
+		6AD79B21269480FF00CDCEBE /* MAGUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGUIFactory.h; sourceTree = "<group>"; };
+		6AD79B22269480FF00CDCEBE /* MAGUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGUIFactory.m; sourceTree = "<group>"; };
+		6AD79B2C269488BE00CDCEBE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6AD79B2E2694894900CDCEBE /* SettingConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingConfig.h; sourceTree = "<group>"; };
+		6AD79B7B26948C4F00CDCEBE /* MAGTableSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGTableSectionView.h; sourceTree = "<group>"; };
+		6AD79B7C26948C4F00CDCEBE /* MAGTableSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTableSectionView.m; sourceTree = "<group>"; };
+		6AD79B8026948D2400CDCEBE /* MAGImport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGImport.h; sourceTree = "<group>"; };
+		6AD79B8326948DD100CDCEBE /* MAGFrameDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGFrameDefine.h; sourceTree = "<group>"; };
+		6AD79B8E26948F6000CDCEBE /* MAGFunDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGFunDefine.h; sourceTree = "<group>"; };
+		6AD9436626F2AC8000DEA83C /* MAGBookBuyView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookBuyView1.h; sourceTree = "<group>"; };
+		6AD9436726F2AC8000DEA83C /* MAGBookBuyView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookBuyView1.m; sourceTree = "<group>"; };
+		6AD9437826F2D6F000DEA83C /* MAGPurchaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGPurchaseManager.h; sourceTree = "<group>"; };
+		6AD9437926F2D6F000DEA83C /* MAGPurchaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGPurchaseManager.m; sourceTree = "<group>"; };
+		6AD948F226F4D9C800DEA83C /* MAGBookRetryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookRetryView.h; sourceTree = "<group>"; };
+		6AD948F326F4D9C800DEA83C /* MAGBookRetryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookRetryView.m; sourceTree = "<group>"; };
+		6AD948F826F4DCEC00DEA83C /* UIButton+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Magic.h"; sourceTree = "<group>"; };
+		6AD948F926F4DCEC00DEA83C /* UIButton+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Magic.m"; sourceTree = "<group>"; };
+		6AE6CF9B269604D700C394F8 /* MAGUITools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGUITools.h; sourceTree = "<group>"; };
+		6AE6CF9C269604D700C394F8 /* MAGUITools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGUITools.m; sourceTree = "<group>"; };
+		6AE6CFB826960F6600C394F8 /* UIImage+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Magic.h"; sourceTree = "<group>"; };
+		6AE6CFB926960F6600C394F8 /* UIImage+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Magic.m"; sourceTree = "<group>"; };
+		6AE6CFBD2696119500C394F8 /* MAGColorDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGColorDefine.h; sourceTree = "<group>"; };
+		6AE6CFBF2696153700C394F8 /* MAGFontDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGFontDefine.h; sourceTree = "<group>"; };
+		6AE6CFC22696164F00C394F8 /* UIViewController+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Magic.h"; sourceTree = "<group>"; };
+		6AE6CFC32696164F00C394F8 /* UIViewController+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Magic.m"; sourceTree = "<group>"; };
+		6AE6CFC726961B3D00C394F8 /* MAGAbstractViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAbstractViewController.h; sourceTree = "<group>"; };
+		6AE6CFC826961B3D00C394F8 /* MAGAbstractViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAbstractViewController.m; sourceTree = "<group>"; };
+		6AE6CFCD2696212000C394F8 /* MAGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGNavigationController.h; sourceTree = "<group>"; };
+		6AE6CFCE2696212000C394F8 /* MAGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGNavigationController.m; sourceTree = "<group>"; };
+		6AE6CFD7269625D100C394F8 /* MAGRackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGRackViewController.h; sourceTree = "<group>"; };
+		6AE6CFD8269625D100C394F8 /* MAGRackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGRackViewController.m; sourceTree = "<group>"; };
+		6AE6CFE52696260E00C394F8 /* MAGMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGMineViewController.h; sourceTree = "<group>"; };
+		6AE6CFE62696260E00C394F8 /* MAGMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGMineViewController.m; sourceTree = "<group>"; };
+		6AE6CFEB2696293400C394F8 /* MAGNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		6AE6CFEC2696293400C394F8 /* MAGNetworkRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGNetworkRequestManager.m; sourceTree = "<group>"; };
+		6AE6CFEF2696293400C394F8 /* MAGNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGNetworkCache.m; sourceTree = "<group>"; };
+		6AE6CFF02696293400C394F8 /* MAGNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGNetworkCache.h; sourceTree = "<group>"; };
+		6AE6CFF12696293400C394F8 /* MAGNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		6AE6CFF32696293400C394F8 /* MAGNetworkRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGNetworkRequestManager.h; sourceTree = "<group>"; };
+		6AE6D000269629E300C394F8 /* MAGDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGDefine.h; sourceTree = "<group>"; };
+		6AE6D00226962A5100C394F8 /* MAGNotificationDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGNotificationDefine.h; sourceTree = "<group>"; };
+		6AE6D00426962CC800C394F8 /* MAGSwitchConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGSwitchConfig.h; sourceTree = "<group>"; };
+		6AE6D00726962EB800C394F8 /* NSString+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Magic.h"; sourceTree = "<group>"; };
+		6AE6D00826962EB800C394F8 /* NSString+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Magic.m"; sourceTree = "<group>"; };
+		6AE6D00D2696331300C394F8 /* NSData+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Magic.h"; sourceTree = "<group>"; };
+		6AE6D00E2696331300C394F8 /* NSData+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Magic.m"; sourceTree = "<group>"; };
+		6AE6D0122696367500C394F8 /* MAGSettingConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGSettingConfig.h; sourceTree = "<group>"; };
+		6AE6D02126963FCD00C394F8 /* MAGUserInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGUserInfoManager.h; sourceTree = "<group>"; };
+		6AE6D02226963FCD00C394F8 /* MAGUserInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGUserInfoManager.m; sourceTree = "<group>"; };
+		6AE6D0272696402100C394F8 /* MAGUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGUserInfoModel.h; sourceTree = "<group>"; };
+		6AE6D0282696402100C394F8 /* MAGUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGUserInfoModel.m; sourceTree = "<group>"; };
+		6AE6D02D269692C000C394F8 /* MAGFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGFileManager.h; sourceTree = "<group>"; };
+		6AE6D02E269692C000C394F8 /* MAGFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGFileManager.m; sourceTree = "<group>"; };
+		6AE6D03C26969DE100C394F8 /* NSObject+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Magic.h"; sourceTree = "<group>"; };
+		6AE6D03D26969DE100C394F8 /* NSObject+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Magic.m"; sourceTree = "<group>"; };
+		6AE6D04D2696BF3100C394F8 /* MAGEnumDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGEnumDefine.h; sourceTree = "<group>"; };
+		6AE6D0622696DA0A00C394F8 /* WXYZ_UtilsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_UtilsHelper.h; sourceTree = "<group>"; };
+		6AE6D0632696DA0A00C394F8 /* WXYZ_UtilsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_UtilsHelper.m; sourceTree = "<group>"; };
+		6AE6D0662696DB3900C394F8 /* WXYZ_SystemInfoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_SystemInfoManager.h; sourceTree = "<group>"; };
+		6AE6D0672696DB3900C394F8 /* WXYZ_SystemInfoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_SystemInfoManager.m; sourceTree = "<group>"; };
+		6AE6D06B2696DCE700C394F8 /* MAGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGTabBarController.h; sourceTree = "<group>"; };
+		6AE6D06C2696DCE700C394F8 /* MAGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTabBarController.m; sourceTree = "<group>"; };
+		6AE6D0D52698265F00C394F8 /* MAGTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGTableViewCell.h; sourceTree = "<group>"; };
+		6AE6D0D62698265F00C394F8 /* MAGTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGTableViewCell.m; sourceTree = "<group>"; };
+		6AE6D0E1269828AD00C394F8 /* UITableView+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Magic.h"; sourceTree = "<group>"; };
+		6AE6D0E2269828AD00C394F8 /* UITableView+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Magic.m"; sourceTree = "<group>"; };
+		6AE6D0E82698296A00C394F8 /* UICollectionView+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Magic.h"; sourceTree = "<group>"; };
+		6AE6D0E92698296A00C394F8 /* UICollectionView+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Magic.m"; sourceTree = "<group>"; };
+		6AE6D0ED26982D5200C394F8 /* UILabel+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Magic.h"; sourceTree = "<group>"; };
+		6AE6D0EE26982D5200C394F8 /* UILabel+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Magic.m"; sourceTree = "<group>"; };
+		6AE6D0F326982DBD00C394F8 /* YYLabel+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYLabel+Magic.h"; sourceTree = "<group>"; };
+		6AE6D0F426982DBD00C394F8 /* YYLabel+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YYLabel+Magic.m"; sourceTree = "<group>"; };
+		6AE6D1B126984C0F00C394F8 /* MAGBookReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookReaderViewController.h; sourceTree = "<group>"; };
+		6AE6D1B226984C0F00C394F8 /* MAGBookReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookReaderViewController.m; sourceTree = "<group>"; };
+		6AE6D1B626984EA200C394F8 /* MAGBookRecordManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookRecordManager.h; sourceTree = "<group>"; };
+		6AE6D1B726984EA200C394F8 /* MAGBookRecordManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookRecordManager.m; sourceTree = "<group>"; };
+		6AE6D1BB2698508B00C394F8 /* MAGBookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookModel.h; sourceTree = "<group>"; };
+		6AE6D1BC2698508B00C394F8 /* MAGBookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookModel.m; sourceTree = "<group>"; };
+		6AEACC3E2721586900181AA3 /* MAGAboutUSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAboutUSViewController.h; sourceTree = "<group>"; };
+		6AEACC3F2721586900181AA3 /* MAGAboutUSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAboutUSViewController.m; sourceTree = "<group>"; };
+		6AEACC422721588200181AA3 /* MAGAboutUSViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGAboutUSViewController1.h; sourceTree = "<group>"; };
+		6AEACC432721588200181AA3 /* MAGAboutUSViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGAboutUSViewController1.m; sourceTree = "<group>"; };
+		6AEACC462721832200181AA3 /* MAGReadingRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGReadingRecordViewController.h; sourceTree = "<group>"; };
+		6AEACC472721832200181AA3 /* MAGReadingRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGReadingRecordViewController.m; sourceTree = "<group>"; };
+		6AEACC4A2721833300181AA3 /* MAGReadingRecordViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGReadingRecordViewController1.h; sourceTree = "<group>"; };
+		6AEACC4B2721833300181AA3 /* MAGReadingRecordViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGReadingRecordViewController1.m; sourceTree = "<group>"; };
+		6AEACC4D272185B900181AA3 /* MAGReadingRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGReadingRecordTableViewCell.h; sourceTree = "<group>"; };
+		6AEACC4E272185B900181AA3 /* MAGReadingRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGReadingRecordTableViewCell.m; sourceTree = "<group>"; };
+		6AEACC89272253F400181AA3 /* MAGDarkModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGDarkModeViewController.h; sourceTree = "<group>"; };
+		6AEACC8A272253F400181AA3 /* MAGDarkModeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGDarkModeViewController.m; sourceTree = "<group>"; };
+		6AEACC8D2722540600181AA3 /* MAGDarkModeViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGDarkModeViewController1.h; sourceTree = "<group>"; };
+		6AEACC8E2722540600181AA3 /* MAGDarkModeViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGDarkModeViewController1.m; sourceTree = "<group>"; };
+		6AEACC902722595000181AA3 /* MAGDarkModeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGDarkModeTableViewCell.h; sourceTree = "<group>"; };
+		6AEACC912722595000181AA3 /* MAGDarkModeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGDarkModeTableViewCell.m; sourceTree = "<group>"; };
+		6AEACCB52723EBCE00181AA3 /* MAGBookCatalogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookCatalogViewController.h; sourceTree = "<group>"; };
+		6AEACCB62723EBCE00181AA3 /* MAGBookCatalogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookCatalogViewController.m; sourceTree = "<group>"; };
+		6AEBFE6926F192B300638EFD /* MAGBookPageContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookPageContentModel.h; sourceTree = "<group>"; };
+		6AEBFE6A26F192B300638EFD /* MAGBookPageContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookPageContentModel.m; sourceTree = "<group>"; };
+		6AEBFE7326F1A63D00638EFD /* MAGPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGPageViewController.h; sourceTree = "<group>"; };
+		6AEBFE7426F1A63D00638EFD /* MAGPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGPageViewController.m; sourceTree = "<group>"; };
+		6AF5E4BD26D3D78400EAB6BC /* MAGServerLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGServerLink.h; sourceTree = "<group>"; };
+		6AF5E4E126D4995400EAB6BC /* MAGBookCatalogModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookCatalogModel.h; sourceTree = "<group>"; };
+		6AF5E4E226D4995400EAB6BC /* MAGBookCatalogModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookCatalogModel.m; sourceTree = "<group>"; };
+		6AF5EB6526D66BEF00EAB6BC /* UIView+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Magic.h"; sourceTree = "<group>"; };
+		6AF5EB6626D66BEF00EAB6BC /* UIView+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Magic.m"; sourceTree = "<group>"; };
+		6AF5EB6B26D66C2D00EAB6BC /* MAGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGProgressHUD.m; sourceTree = "<group>"; };
+		6AF5EB6C26D66C2D00EAB6BC /* MAGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGProgressHUD.h; sourceTree = "<group>"; };
+		6AF5EC7A26D7B0FA00EAB6BC /* MAGBookChapterContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookChapterContentModel.h; sourceTree = "<group>"; };
+		6AF5EC7B26D7B0FA00EAB6BC /* MAGBookChapterContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookChapterContentModel.m; sourceTree = "<group>"; };
+		6AF5EC7F26D7EBA600EAB6BC /* NSAttributedString+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Magic.h"; sourceTree = "<group>"; };
+		6AF5EC8026D7EBA600EAB6BC /* NSAttributedString+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Magic.m"; sourceTree = "<group>"; };
+		6AFC773D26F73A080098099C /* CALayer+Magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Magic.h"; sourceTree = "<group>"; };
+		6AFC773E26F73A080098099C /* CALayer+Magic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Magic.m"; sourceTree = "<group>"; };
+		AD66F8C8285975CE005A7B4A /* WXYZ_ViewHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXYZ_ViewHelper.h; sourceTree = "<group>"; };
+		AD66F8C9285975CE005A7B4A /* WXYZ_ViewHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXYZ_ViewHelper.m; sourceTree = "<group>"; };
+		ADF7B01C2851E4330073B83D /* MAGBookChannelsDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookChannelsDetailModel.h; sourceTree = "<group>"; };
+		ADF7B01D2851E4330073B83D /* MAGBookChannelsDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookChannelsDetailModel.m; sourceTree = "<group>"; };
+		ADF7B01F2851E4490073B83D /* MAGBannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBannerModel.h; sourceTree = "<group>"; };
+		ADF7B0202851E4490073B83D /* MAGBannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBannerModel.m; sourceTree = "<group>"; };
+		ADF7B0222851E4750073B83D /* MAGBookChannelsDetailLabelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAGBookChannelsDetailLabelModel.h; sourceTree = "<group>"; };
+		ADF7B0232851E4750073B83D /* MAGBookChannelsDetailLabelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAGBookChannelsDetailLabelModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD79AAB26946F6E00CDCEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD17BB826E3258000B05EF8 /* libPods-MagicView.a in Frameworks */,
+				6A87DA032726C5710023B35D /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201A54522C50D84E95DE970B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				031CEFD909F2B1FD81CAF6FA /* Pods-MagicView.debug.xcconfig */,
+				17F0487250A9049B0905AE5B /* Pods-MagicView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3131D485365792ED9DE71082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A87DA022726C5710023B35D /* StoreKit.framework */,
+				3B7F99184CD79B70D7672C1A /* libPods-MagicView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A0251B326A16D8B007F2428 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D1B626984EA200C394F8 /* MAGBookRecordManager.h */,
+				6AE6D1B726984EA200C394F8 /* MAGBookRecordManager.m */,
+				6A0251DF26A1804A007F2428 /* MAGBookReaderManager.h */,
+				6A0251E026A1804A007F2428 /* MAGBookReaderManager.m */,
+				6A02520B26A1AC17007F2428 /* MAGBookManager.h */,
+				6A02520C26A1AC17007F2428 /* MAGBookManager.m */,
+				6ABB0E6026D923E2003A923F /* MAGBookDownloadManager.h */,
+				6ABB0E6126D923E2003A923F /* MAGBookDownloadManager.m */,
+				6A5CD76E26DCDBF4004F4DD3 /* MAGBookListenManager.h */,
+				6A5CD76F26DCDBF4004F4DD3 /* MAGBookListenManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6A0251B426A16D93007F2428 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				6A0251B526A16E50007F2428 /* MAGBookAnimateViewController.h */,
+				6A0251B626A16E50007F2428 /* MAGBookAnimateViewController.m */,
+				6A873A7E26FF32E200D4E367 /* Style */,
+				6A1585AC26D178DD00ABA351 /* ContentView */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		6A15843B26CF572600ABA351 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6A324757272CC48B004CDAE7 /* MAGPhotoManager */,
+				6ABCC271272BFC9F00881B64 /* MAGCameraManager */,
+				6A7C8C7427277794005AF1DC /* MAGInitializeManager */,
+				6AA9249C2721454C001CA27A /* DeveloperManager */,
+				6ABE6281271DEE8A00041FDE /* IAPManager */,
+				6A3675D1271DAD17003C3A8F /* QQManager */,
+				6A3675C7271D9ED8003C3A8F /* WechactManager */,
+				6A7683E1271D8AF200E383F5 /* AppleManager */,
+				6AD9437726F2D6CA00DEA83C /* PurchaseManager */,
+				6A60781226E73EE20058CC8B /* ShareManager */,
+				6AB70F1C26DD229B008F5B0F /* MAGLinkManager */,
+				6AE6CFE92696293400C394F8 /* NetworkManager */,
+				6AE6D02C269692AB00C394F8 /* FileManager */,
+				6A15843C26CF57C300ABA351 /* UserInfoManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6A15843C26CF57C300ABA351 /* UserInfoManager */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D02126963FCD00C394F8 /* MAGUserInfoManager.h */,
+				6AE6D02226963FCD00C394F8 /* MAGUserInfoManager.m */,
+			);
+			path = UserInfoManager;
+			sourceTree = "<group>";
+		};
+		6A15844726CF5EE900ABA351 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				6A15844826CF5F2A00ABA351 /* NSDictionary+Magic.h */,
+				6A15844926CF5F2A00ABA351 /* NSDictionary+Magic.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		6A15858826D115B100ABA351 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				6A15858926D115C400ABA351 /* NSArray+Magic.h */,
+				6A15858A26D115C400ABA351 /* NSArray+Magic.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		6A1585AC26D178DD00ABA351 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				6A02520326A1AAD6007F2428 /* MAGBookContentViewController.h */,
+				6A02520426A1AAD6007F2428 /* MAGBookContentViewController.m */,
+				6A02520726A1AAEA007F2428 /* MAGBookContentView.h */,
+				6A02520826A1AAEA007F2428 /* MAGBookContentView.m */,
+				6A873A7F26FF32FF00D4E367 /* Style */,
+				6AD948F126F4D9AA00DEA83C /* RetryView */,
+				6AD9436526F2AC5A00DEA83C /* BuyView */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		6A1CA03E26FAFBCF00DCC2C4 /* MAGStarView */ = {
+			isa = PBXGroup;
+			children = (
+				6A1CA04626FAFD7400DCC2C4 /* MAGStarView.h */,
+				6A1CA04726FAFD7500DCC2C4 /* MAGStarView.m */,
+			);
+			path = MAGStarView;
+			sourceTree = "<group>";
+		};
+		6A1CA04926FB243500DCC2C4 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				6A1CA04A26FB244A00DCC2C4 /* UIScrollView+Magic.h */,
+				6A1CA04B26FB244A00DCC2C4 /* UIScrollView+Magic.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		6A1CA05026FB24C200DCC2C4 /* MAGRefreshSafeHeader */ = {
+			isa = PBXGroup;
+			children = (
+				6A1CA04D26FB24BC00DCC2C4 /* MAGRefreshSafeHeader.h */,
+				6A1CA04E26FB24BC00DCC2C4 /* MAGRefreshSafeHeader.m */,
+			);
+			path = MAGRefreshSafeHeader;
+			sourceTree = "<group>";
+		};
+		6A324757272CC48B004CDAE7 /* MAGPhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A324758272CC496004CDAE7 /* MAGPhotoManager.h */,
+				6A324759272CC496004CDAE7 /* MAGPhotoManager.m */,
+			);
+			path = MAGPhotoManager;
+			sourceTree = "<group>";
+		};
+		6A3675C7271D9ED8003C3A8F /* WechactManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A3675C8271D9EE3003C3A8F /* MAGWechatManager.h */,
+				6A3675C9271D9EE3003C3A8F /* MAGWechatManager.m */,
+			);
+			path = WechactManager;
+			sourceTree = "<group>";
+		};
+		6A3675D1271DAD17003C3A8F /* QQManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A3675D2271DAD20003C3A8F /* MAGQQManager.h */,
+				6A3675D3271DAD20003C3A8F /* MAGQQManager.m */,
+			);
+			path = QQManager;
+			sourceTree = "<group>";
+		};
+		6A3675DA271DE5DE003C3A8F /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				6A3675DB271DE5F0003C3A8F /* MAGRechargeViewController.h */,
+				6A3675DC271DE5F0003C3A8F /* MAGRechargeViewController.m */,
+				6ABE6279271DE6AD00041FDE /* Style */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		6A5CD6C826DC5354004F4DD3 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				6A5CD6C326DC4311004F4DD3 /* MAGBookReaderMenuView.h */,
+				6A5CD6C426DC4311004F4DD3 /* MAGBookReaderMenuView.m */,
+				6A873A7D26FF32C800D4E367 /* Style */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
+		6A6076ED26E398610058CC8B /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				6A6076EE26E398710058CC8B /* UIFont+Magic.h */,
+				6A6076EF26E398710058CC8B /* UIFont+Magic.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		6A6077CF26E6FF6B0058CC8B /* YYLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077D026E6FF800058CC8B /* MAGYYLabel.h */,
+				6A6077D126E6FF800058CC8B /* MAGYYLabel.m */,
+			);
+			path = YYLabel;
+			sourceTree = "<group>";
+		};
+		6A6077D526E6FFA50058CC8B /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077D626E6FFB30058CC8B /* MAGImageView.h */,
+				6A6077D726E6FFB30058CC8B /* MAGImageView.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		6A6077DB26E6FFDF0058CC8B /* YYAnimatedImageView */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077DC26E6FFED0058CC8B /* MAGAnimatedImageView.h */,
+				6A6077DD26E6FFED0058CC8B /* MAGAnimatedImageView.m */,
+			);
+			path = YYAnimatedImageView;
+			sourceTree = "<group>";
+		};
+		6A6077E126E700060058CC8B /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077E226E700190058CC8B /* MAGButton.h */,
+				6A6077E326E700190058CC8B /* MAGButton.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		6A6077E926E700A00058CC8B /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077EA26E700AB0058CC8B /* MAGTextField.h */,
+				6A6077EB26E700AB0058CC8B /* MAGTextField.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		6A6077EF26E700DE0058CC8B /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077F526E701130058CC8B /* UITextView */,
+				6A6077FB26E701A10058CC8B /* YYTextView */,
+				6A60780126E7020C0058CC8B /* UITableView */,
+				6A60780726E702820058CC8B /* UICollectionView */,
+				6A6077F026E700E70058CC8B /* MAGScrollView.h */,
+				6A6077F126E700E70058CC8B /* MAGScrollView.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		6A6077F526E701130058CC8B /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077F626E7011E0058CC8B /* MAGTextView.h */,
+				6A6077F726E7011E0058CC8B /* MAGTextView.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		6A6077FB26E701A10058CC8B /* YYTextView */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077FC26E701A80058CC8B /* MAGYYTextView.h */,
+				6A6077FD26E701A80058CC8B /* MAGYYTextView.m */,
+			);
+			path = YYTextView;
+			sourceTree = "<group>";
+		};
+		6A60780126E7020C0058CC8B /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				6A60780226E702590058CC8B /* MAGTableView.h */,
+				6A60780326E702590058CC8B /* MAGTableView.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		6A60780726E702820058CC8B /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6A60780826E7028D0058CC8B /* MAGCollectionView.h */,
+				6A60780926E7028D0058CC8B /* MAGCollectionView.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		6A60781226E73EE20058CC8B /* ShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A60781326E73EF80058CC8B /* MAGShareManager.h */,
+				6A60781426E73EF80058CC8B /* MAGShareManager.m */,
+			);
+			path = ShareManager;
+			sourceTree = "<group>";
+		};
+		6A768382271B072500E383F5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6A768383271B073700E383F5 /* MAGLoginViewController.h */,
+				6A768384271B073700E383F5 /* MAGLoginViewController.m */,
+				6A768386271B074600E383F5 /* Style */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6A768386271B074600E383F5 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6A768387271B075700E383F5 /* MAGLoginViewController1.h */,
+				6A768388271B075700E383F5 /* MAGLoginViewController1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6A76838A271BDBBF00E383F5 /* LLDark */ = {
+			isa = PBXGroup;
+			children = (
+				6A76838B271BDBBF00E383F5 /* Tools */,
+				6A768399271BDBBF00E383F5 /* Refresh */,
+				6A7683A5271BDBBF00E383F5 /* LLDark.h */,
+				6A7683A6271BDBBF00E383F5 /* Dark */,
+			);
+			path = LLDark;
+			sourceTree = "<group>";
+		};
+		6A76838B271BDBBF00E383F5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6A76838C271BDBBF00E383F5 /* NSObject+Expand.h */,
+				6A76838D271BDBBF00E383F5 /* LLLaunchScreen.m */,
+				6A76838E271BDBBF00E383F5 /* LLDarkManager.m */,
+				6A76838F271BDBBF00E383F5 /* LLThird.m */,
+				6A768390271BDBBF00E383F5 /* LLDarkSource.m */,
+				6A768391271BDBBF00E383F5 /* LLDarkWindow.m */,
+				6A768392271BDBBF00E383F5 /* LLLaunchScreen.h */,
+				6A768393271BDBBF00E383F5 /* NSObject+Expand.m */,
+				6A768394271BDBBF00E383F5 /* LLDarkDefine.h */,
+				6A768395271BDBBF00E383F5 /* LLDarkConfig.h */,
+				6A768396271BDBBF00E383F5 /* LLDarkManager.h */,
+				6A768397271BDBBF00E383F5 /* LLDarkSource.h */,
+				6A768398271BDBBF00E383F5 /* LLDarkWindow.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6A768399271BDBBF00E383F5 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				6A76839A271BDBBF00E383F5 /* NSObject+Refresh.m */,
+				6A76839B271BDBBF00E383F5 /* UIViewController+Refresh.m */,
+				6A76839C271BDBBF00E383F5 /* UIView+Refresh.m */,
+				6A76839D271BDBBF00E383F5 /* CALayer+Refresh.h */,
+				6A76839E271BDBBF00E383F5 /* NSMutableDictionary+Refresh.h */,
+				6A76839F271BDBBF00E383F5 /* NSMutableAttributedString+Refresh.m */,
+				6A7683A0271BDBBF00E383F5 /* UIView+Refresh.h */,
+				6A7683A1271BDBBF00E383F5 /* NSObject+Refresh.h */,
+				6A7683A2271BDBBF00E383F5 /* CALayer+Refresh.m */,
+				6A7683A3271BDBBF00E383F5 /* NSMutableAttributedString+Refresh.h */,
+				6A7683A4271BDBBF00E383F5 /* NSMutableDictionary+Refresh.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		6A7683A6271BDBBF00E383F5 /* Dark */ = {
+			isa = PBXGroup;
+			children = (
+				6A7683B9271BDBBF00E383F5 /* CAGradientLayer+Dark.h */,
+				6A7683B0271BDBBF00E383F5 /* CAGradientLayer+Dark.m */,
+				6A7683BA271BDBBF00E383F5 /* CALayer+Dark.h */,
+				6A7683AE271BDBBF00E383F5 /* CALayer+Dark.m */,
+				6A7683AC271BDBBF00E383F5 /* CAShapeLayer+Dark.h */,
+				6A7683B4271BDBBF00E383F5 /* CAShapeLayer+Dark.m */,
+				6A7683B6271BDBBF00E383F5 /* CATextLayer+Dark.h */,
+				6A7683AA271BDBBF00E383F5 /* CATextLayer+Dark.m */,
+				6A7683AD271BDBBF00E383F5 /* NSObject+LLDark.m */,
+				6A7683B7271BDBBF00E383F5 /* NSObject+LLDark.h */,
+				6A7683A8271BDBBF00E383F5 /* UIColor+Dark.h */,
+				6A7683B2271BDBBF00E383F5 /* UIColor+Dark.m */,
+				6A7683A7271BDBBF00E383F5 /* UIImage+Dark.h */,
+				6A7683B3271BDBBF00E383F5 /* UIImage+Dark.m */,
+				6A7683AF271BDBBF00E383F5 /* UIImageView+Dark.h */,
+				6A7683B8271BDBBF00E383F5 /* UIImageView+Dark.m */,
+				6A7683B5271BDBBF00E383F5 /* UITabBarItem+Dark.h */,
+				6A7683AB271BDBBF00E383F5 /* UITabBarItem+Dark.m */,
+				6A7683B1271BDBBF00E383F5 /* UIView+Dark.h */,
+				6A7683A9271BDBBF00E383F5 /* UIView+Dark.m */,
+			);
+			path = Dark;
+			sourceTree = "<group>";
+		};
+		6A7683E1271D8AF200E383F5 /* AppleManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A7683E2271D8AFD00E383F5 /* MAGAppleManager.h */,
+				6A7683E3271D8AFD00E383F5 /* MAGAppleManager.m */,
+			);
+			path = AppleManager;
+			sourceTree = "<group>";
+		};
+		6A7C8C7427277794005AF1DC /* MAGInitializeManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A7C8C7527277802005AF1DC /* MAGInitializeManager.h */,
+				6A7C8C7627277802005AF1DC /* MAGInitializeManager.m */,
+			);
+			path = MAGInitializeManager;
+			sourceTree = "<group>";
+		};
+		6A873A7D26FF32C800D4E367 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6A5CD6CA26DC53DF004F4DD3 /* MAGBookReaderMenuView1.h */,
+				6A5CD6CB26DC53DF004F4DD3 /* MAGBookReaderMenuView1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6A873A7E26FF32E200D4E367 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6A0251DB26A17F44007F2428 /* MAGBookSimulationPageAnimateViewController.h */,
+				6A0251DC26A17F44007F2428 /* MAGBookSimulationPageAnimateViewController.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6A873A7F26FF32FF00D4E367 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E6AF926DF9F7C004611B9 /* MAGBookContentView1.h */,
+				6A5E6AFA26DF9F7C004611B9 /* MAGBookContentView1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6A873A8026FF330E00D4E367 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AD9436626F2AC8000DEA83C /* MAGBookBuyView1.h */,
+				6AD9436726F2AC8000DEA83C /* MAGBookBuyView1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6A87D9FB272694150023B35D /* ADView */ = {
+			isa = PBXGroup;
+			children = (
+				6A87D9FC2726945B0023B35D /* MAGADView.h */,
+				6A87D9FD2726945B0023B35D /* MAGADView.m */,
+				6A87D9FF272696190023B35D /* MAGBUAView.h */,
+				6A87DA00272696190023B35D /* MAGBUAView.m */,
+			);
+			path = ADView;
+			sourceTree = "<group>";
+		};
+		6AA9247627201EED001CA27A /* RechargeRecord */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9247727201F0A001CA27A /* MAGRechargeRecordViewController.h */,
+				6AA9247827201F0A001CA27A /* MAGRechargeRecordViewController.m */,
+				6AA9247A27201F66001CA27A /* Style */,
+			);
+			path = RechargeRecord;
+			sourceTree = "<group>";
+		};
+		6AA9247A27201F66001CA27A /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9247B27201F75001CA27A /* MAGRechargeRecordViewController1.h */,
+				6AA9247C27201F75001CA27A /* MAGRechargeRecordViewController1.m */,
+				6AA9247E272032A2001CA27A /* MAGRechargeRecordTableViewCell.h */,
+				6AA9247F272032A2001CA27A /* MAGRechargeRecordTableViewCell.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6AA9248127204007001CA27A /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9248227204025001CA27A /* MAGFeedbackViewController.h */,
+				6AA9248327204025001CA27A /* MAGFeedbackViewController.m */,
+				6AA9248527204029001CA27A /* Style */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		6AA9248527204029001CA27A /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9248627204032001CA27A /* MAGFeedbackViewController1.h */,
+				6AA9248727204032001CA27A /* MAGFeedbackViewController1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6AA9248C2720C832001CA27A /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9248D2720C859001CA27A /* MAGCollectionViewCell.h */,
+				6AA9248E2720C859001CA27A /* MAGCollectionViewCell.m */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6AA9249C2721454C001CA27A /* DeveloperManager */ = {
+			isa = PBXGroup;
+			children = (
+				6AA9249D27214561001CA27A /* MAGDeveloperManager.h */,
+				6AA9249E27214561001CA27A /* MAGDeveloperManager.m */,
+			);
+			path = DeveloperManager;
+			sourceTree = "<group>";
+		};
+		6AB0E55F26F80BD00099CABF /* MAGClickAgent */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0E56026F80CB30099CABF /* MAGClickAgent.h */,
+				6AB0E56126F80CB30099CABF /* MAGClickAgent.m */,
+			);
+			path = MAGClickAgent;
+			sourceTree = "<group>";
+		};
+		6AB70F1126DD0EF5008F5B0F /* MAGActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				6AB70F1226DD0EF5008F5B0F /* MAGActivityIndicatorView.h */,
+				6AB70F1326DD0EF5008F5B0F /* MAGActivityIndicatorView.m */,
+			);
+			path = MAGActivityView;
+			sourceTree = "<group>";
+		};
+		6AB70F1C26DD229B008F5B0F /* MAGLinkManager */ = {
+			isa = PBXGroup;
+			children = (
+				6AB70F1D26DD22B8008F5B0F /* MAGResourceLinkManager.h */,
+				6AB70F1E26DD22B8008F5B0F /* MAGResourceLinkManager.m */,
+			);
+			path = MAGLinkManager;
+			sourceTree = "<group>";
+		};
+		6AB70F2226DD2D24008F5B0F /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				6AB70F2326DD2D36008F5B0F /* UIImageView+Magic.h */,
+				6AB70F2426DD2D36008F5B0F /* UIImageView+Magic.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		6AB70F6626DDD47F008F5B0F /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				6AEACCB52723EBCE00181AA3 /* MAGBookCatalogViewController.h */,
+				6AEACCB62723EBCE00181AA3 /* MAGBookCatalogViewController.m */,
+				6AB70FC926DDEBC0008F5B0F /* Style */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		6AB70FC926DDEBC0008F5B0F /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AB70F6726DDD4AF008F5B0F /* MAGBookCatalogViewController1.h */,
+				6AB70F6826DDD4AF008F5B0F /* MAGBookCatalogViewController1.m */,
+				6AB70FC226DDE046008F5B0F /* MAGBookCatalogTableViewCell1.h */,
+				6AB70FC326DDE046008F5B0F /* MAGBookCatalogTableViewCell1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6ABB0E6426D9AF97003A923F /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				6ABB0E6526D9AFA7003A923F /* NSError+Magic.h */,
+				6ABB0E6626D9AFA7003A923F /* NSError+Magic.m */,
+			);
+			path = NSError;
+			sourceTree = "<group>";
+		};
+		6ABCC271272BFC9F00881B64 /* MAGCameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCC272272BFCC300881B64 /* MAGCameraManager.h */,
+				6ABCC273272BFCC300881B64 /* MAGCameraManager.m */,
+			);
+			path = MAGCameraManager;
+			sourceTree = "<group>";
+		};
+		6ABE6279271DE6AD00041FDE /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE627A271DE6BD00041FDE /* MAGRechargeViewController1.h */,
+				6ABE627B271DE6BD00041FDE /* MAGRechargeViewController1.m */,
+				6ABE6288271E6EAD00041FDE /* MAGRechargeTableViewCell.h */,
+				6ABE6289271E6EAD00041FDE /* MAGRechargeTableViewCell.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6ABE627D271DEB3E00041FDE /* RechargeModel */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE627E271DEB4B00041FDE /* MAGRechargeModel.h */,
+				6ABE627F271DEB4B00041FDE /* MAGRechargeModel.m */,
+				6AA92473272017F6001CA27A /* MAGRechargeRecordModel.h */,
+				6AA92474272017F6001CA27A /* MAGRechargeRecordModel.m */,
+			);
+			path = RechargeModel;
+			sourceTree = "<group>";
+		};
+		6ABE6281271DEE8A00041FDE /* IAPManager */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE6282271DEE9400041FDE /* MAGIAPManager.h */,
+				6ABE6283271DEE9400041FDE /* MAGIAPManager.m */,
+				6ABE6285271E638300041FDE /* MAGProductsRequest.h */,
+				6ABE6286271E638300041FDE /* MAGProductsRequest.m */,
+			);
+			path = IAPManager;
+			sourceTree = "<group>";
+		};
+		6AC38C87279EA28B00DE5BB2 /* AccountCancellation */ = {
+			isa = PBXGroup;
+			children = (
+				6AC38C88279EA2BB00DE5BB2 /* MAGAccountCancellationViewController.h */,
+				6AC38C89279EA2BB00DE5BB2 /* MAGAccountCancellationViewController.m */,
+				6AC38C8B279EA2F500DE5BB2 /* Style */,
+			);
+			path = AccountCancellation;
+			sourceTree = "<group>";
+		};
+		6AC38C8B279EA2F500DE5BB2 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AC38C8C279EA34F00DE5BB2 /* MAGAccountCancellationViewController1.h */,
+				6AC38C8D279EA34F00DE5BB2 /* MAGAccountCancellationViewController1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6AC38C8F279ED17100DE5BB2 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				6AC38C90279ED18400DE5BB2 /* UITextView+Magic.h */,
+				6AC38C91279ED18400DE5BB2 /* UITextView+Magic.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		6ACE894526EC1D91008F4412 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE894626EC1DA1008F4412 /* UIColor+Magic.h */,
+				6ACE894726EC1DA1008F4412 /* UIColor+Magic.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		6AD17B5526E1A0CB00B05EF8 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				6AD17B5626E1A0D500B05EF8 /* MAGLabel.h */,
+				6AD17B5726E1A0D500B05EF8 /* MAGLabel.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		6AD17BA326E211DA00B05EF8 /* MAGUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				6AD17BA526E211E100B05EF8 /* MAGUserDefaults.h */,
+				6AD17BA626E211E100B05EF8 /* MAGUserDefaults.m */,
+			);
+			path = MAGUserDefaults;
+			sourceTree = "<group>";
+		};
+		6AD17BAB26E222B800B05EF8 /* MAGSlider */ = {
+			isa = PBXGroup;
+			children = (
+				6AD17BAE26E222C700B05EF8 /* MAGSliderSetting.h */,
+				6AD17BAC26E222C700B05EF8 /* MAGSliderSetting.m */,
+				6AD17BAD26E222C700B05EF8 /* MAGSliderView.h */,
+				6AD17BAF26E222C700B05EF8 /* MAGSliderView.m */,
+			);
+			path = MAGSlider;
+			sourceTree = "<group>";
+		};
+		6AD79AA526946F6E00CDCEBE = {
+			isa = PBXGroup;
+			children = (
+				6AD79AB026946F6E00CDCEBE /* MagicView */,
+				6AD79AAF26946F6E00CDCEBE /* Products */,
+				201A54522C50D84E95DE970B /* Pods */,
+				3131D485365792ED9DE71082 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD79AAF26946F6E00CDCEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79AAE26946F6E00CDCEBE /* MagicView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD79AB026946F6E00CDCEBE /* MagicView */ = {
+			isa = PBXGroup;
+			children = (
+				6A7683D1271C1FA100E383F5 /* MagicView.entitlements */,
+				6AD79AD82694717B00CDCEBE /* MagicView */,
+				6AD79AD12694708A00CDCEBE /* PublicModule */,
+				6AD79AB126946F6E00CDCEBE /* AppDelegate.h */,
+				6AD79AB226946F6E00CDCEBE /* AppDelegate.m */,
+				6AD79ABD26946F6F00CDCEBE /* Assets.xcassets */,
+				6AD79ABF26946F6F00CDCEBE /* LaunchScreen.storyboard */,
+				6AD79AC226946F6F00CDCEBE /* Info.plist */,
+				6AD79AC326946F6F00CDCEBE /* main.m */,
+			);
+			path = MagicView;
+			sourceTree = "<group>";
+		};
+		6AD79AD12694708A00CDCEBE /* PublicModule */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79B3126948B8200CDCEBE /* Tools */,
+				6AD79AD92694718C00CDCEBE /* Module */,
+				6AD79AD2269470CE00CDCEBE /* WXYZ_MainTabbarViewController.h */,
+				6AD79AD3269470CE00CDCEBE /* WXYZ_MainTabbarViewController.m */,
+				6AD79B2C269488BE00CDCEBE /* PrefixHeader.pch */,
+				6AD79B2E2694894900CDCEBE /* SettingConfig.h */,
+				6A7683D5271D539300E383F5 /* GoogleService-Info.plist */,
+				6A6076E726E3965E0058CC8B /* YYAnimatedImageView+Util.h */,
+				6A6076E826E3965E0058CC8B /* YYAnimatedImageView+Util.m */,
+			);
+			path = PublicModule;
+			sourceTree = "<group>";
+		};
+		6AD79AD82694717B00CDCEBE /* MagicView */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D0122696367500C394F8 /* MAGSettingConfig.h */,
+				6AE6D00426962CC800C394F8 /* MAGSwitchConfig.h */,
+				6AE6CFD22696257F00C394F8 /* Module */,
+				6AE6D1B026984BF700C394F8 /* BookReader */,
+				6AE6D02026963FB300C394F8 /* PublicModel */,
+				6AE6CFB626960F5100C394F8 /* Category */,
+				6AD79B8226948DAA00CDCEBE /* Define */,
+				6AD79B1E2694804E00CDCEBE /* Tools */,
+				6A15843B26CF572600ABA351 /* Manager */,
+				6AD79AF42694790C00CDCEBE /* BaseClass */,
+			);
+			path = MagicView;
+			sourceTree = "<group>";
+		};
+		6AD79AD92694718C00CDCEBE /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79ADA269471A500CDCEBE /* WXYZ_RackViewController.h */,
+				6AD79ADB269471A500CDCEBE /* WXYZ_RackViewController.m */,
+				6AD79ADF269471AF00CDCEBE /* WXYZ_MallViewController.h */,
+				6AD79AE0269471AF00CDCEBE /* WXYZ_MallViewController.m */,
+				6AD79AE3269471C700CDCEBE /* WXYZ_DiscoverViewController.h */,
+				6AD79AE4269471C700CDCEBE /* WXYZ_DiscoverViewController.m */,
+				6AD79AE7269471D300CDCEBE /* WXYZ_MineViewController.h */,
+				6AD79AE8269471D300CDCEBE /* WXYZ_MineViewController.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6AD79AF42694790C00CDCEBE /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79B1826947A1400CDCEBE /* UIView */,
+				6AD79B12269479D000CDCEBE /* UIViewController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		6AD79B12269479D000CDCEBE /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6AEBFE7726F1BBD900638EFD /* MAGPageViewController */,
+				6AE6CFCC2696210300C394F8 /* UINavigationController */,
+				6AE6D06A2696DCC600C394F8 /* UITabBarController */,
+				6AE6CFC726961B3D00C394F8 /* MAGAbstractViewController.h */,
+				6AE6CFC826961B3D00C394F8 /* MAGAbstractViewController.m */,
+				6AD79B13269479EA00CDCEBE /* MAGNavigationBarViewController.h */,
+				6AD79B14269479EA00CDCEBE /* MAGNavigationBarViewController.m */,
+				6AD79AF52694795D00CDCEBE /* MAGViewController.h */,
+				6AD79AF62694795D00CDCEBE /* MAGViewController.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		6AD79B1826947A1400CDCEBE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				6A6077EF26E700DE0058CC8B /* UIScrollView */,
+				6AA9248C2720C832001CA27A /* UICollectionViewCell */,
+				6AE6D0D42698264D00C394F8 /* UITableViewCell */,
+				6AD79B7A26948C1900CDCEBE /* UITableSectionView */,
+				6A6077E926E700A00058CC8B /* UITextField */,
+				6A6077E126E700060058CC8B /* UIButton */,
+				6A6077D526E6FFA50058CC8B /* UIImageView */,
+				6A6077DB26E6FFDF0058CC8B /* YYAnimatedImageView */,
+				6AD17B5526E1A0CB00B05EF8 /* UILabel */,
+				6A6077CF26E6FF6B0058CC8B /* YYLabel */,
+				6AE6CFAD26960D6A00C394F8 /* NavigationBar */,
+				6A0251E626A1A889007F2428 /* MAGView.h */,
+				6A0251E726A1A889007F2428 /* MAGView.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		6AD79B1E2694804E00CDCEBE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6A87D9FB272694150023B35D /* ADView */,
+				6A1CA05026FB24C200DCC2C4 /* MAGRefreshSafeHeader */,
+				6A1CA03E26FAFBCF00DCC2C4 /* MAGStarView */,
+				6AB0E55F26F80BD00099CABF /* MAGClickAgent */,
+				6AD17BAB26E222B800B05EF8 /* MAGSlider */,
+				6AD17BA326E211DA00B05EF8 /* MAGUserDefaults */,
+				6AB70F1126DD0EF5008F5B0F /* MAGActivityView */,
+				6AF5EB6A26D66C1B00EAB6BC /* MBProgressHUD */,
+				6AD79B8426948E4E00CDCEBE /* UITools */,
+				6AD79B20269480E400CDCEBE /* MAGUIFactory */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6AD79B20269480E400CDCEBE /* MAGUIFactory */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79B21269480FF00CDCEBE /* MAGUIFactory.h */,
+				6AD79B22269480FF00CDCEBE /* MAGUIFactory.m */,
+			);
+			path = MAGUIFactory;
+			sourceTree = "<group>";
+		};
+		6AD79B3126948B8200CDCEBE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6A76838A271BDBBF00E383F5 /* LLDark */,
+				6A15849526CF8D7800ABA351 /* Foundation+Log.m */,
+				6AE6D0622696DA0A00C394F8 /* WXYZ_UtilsHelper.h */,
+				6AE6D0632696DA0A00C394F8 /* WXYZ_UtilsHelper.m */,
+				AD66F8C8285975CE005A7B4A /* WXYZ_ViewHelper.h */,
+				AD66F8C9285975CE005A7B4A /* WXYZ_ViewHelper.m */,
+				6AE6D0662696DB3900C394F8 /* WXYZ_SystemInfoManager.h */,
+				6AE6D0672696DB3900C394F8 /* WXYZ_SystemInfoManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6AD79B7A26948C1900CDCEBE /* UITableSectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79B7B26948C4F00CDCEBE /* MAGTableSectionView.h */,
+				6AD79B7C26948C4F00CDCEBE /* MAGTableSectionView.m */,
+			);
+			path = UITableSectionView;
+			sourceTree = "<group>";
+		};
+		6AD79B8226948DAA00CDCEBE /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79B8026948D2400CDCEBE /* MAGImport.h */,
+				6AD79B8326948DD100CDCEBE /* MAGFrameDefine.h */,
+				6AD79B8E26948F6000CDCEBE /* MAGFunDefine.h */,
+				6AE6CFBD2696119500C394F8 /* MAGColorDefine.h */,
+				6ABCC203272B6A0F00881B64 /* MAGImageDefine.h */,
+				6AE6CFBF2696153700C394F8 /* MAGFontDefine.h */,
+				6AE6D000269629E300C394F8 /* MAGDefine.h */,
+				6AE6D00226962A5100C394F8 /* MAGNotificationDefine.h */,
+				6AE6D04D2696BF3100C394F8 /* MAGEnumDefine.h */,
+				6AF5E4BD26D3D78400EAB6BC /* MAGServerLink.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		6AD79B8426948E4E00CDCEBE /* UITools */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CF9B269604D700C394F8 /* MAGUITools.h */,
+				6AE6CF9C269604D700C394F8 /* MAGUITools.m */,
+			);
+			path = UITools;
+			sourceTree = "<group>";
+		};
+		6AD9436526F2AC5A00DEA83C /* BuyView */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC145726F24D9B00CB550B /* MAGBookBuyView.h */,
+				6ABC145826F24D9B00CB550B /* MAGBookBuyView.m */,
+				6A873A8026FF330E00D4E367 /* Style */,
+			);
+			path = BuyView;
+			sourceTree = "<group>";
+		};
+		6AD9437726F2D6CA00DEA83C /* PurchaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				6AD9437826F2D6F000DEA83C /* MAGPurchaseManager.h */,
+				6AD9437926F2D6F000DEA83C /* MAGPurchaseManager.m */,
+			);
+			path = PurchaseManager;
+			sourceTree = "<group>";
+		};
+		6AD948F126F4D9AA00DEA83C /* RetryView */ = {
+			isa = PBXGroup;
+			children = (
+				6AD948F226F4D9C800DEA83C /* MAGBookRetryView.h */,
+				6AD948F326F4D9C800DEA83C /* MAGBookRetryView.m */,
+			);
+			path = RetryView;
+			sourceTree = "<group>";
+		};
+		6AD948F726F4DCDE00DEA83C /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				6AD948F826F4DCEC00DEA83C /* UIButton+Magic.h */,
+				6AD948F926F4DCEC00DEA83C /* UIButton+Magic.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		6AE6CFAD26960D6A00C394F8 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				6AD79B1926947A2900CDCEBE /* MAGNavigationBar.h */,
+				6AD79B1A26947A2900CDCEBE /* MAGNavigationBar.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		6AE6CFB626960F5100C394F8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D03B26969DD400C394F8 /* NSObject */,
+				6ABB0E6426D9AF97003A923F /* NSError */,
+				6AE6D00C2696330700C394F8 /* NSData */,
+				6A15844726CF5EE900ABA351 /* NSDictionary */,
+				6A15858826D115B100ABA351 /* NSArray */,
+				6AE6D00626962EAC00C394F8 /* NSString */,
+				6AF5EC7E26D7EB9300EAB6BC /* NSAttributedString */,
+				6AE6CFC12696163C00C394F8 /* UIViewController */,
+				6A1CA04926FB243500DCC2C4 /* UIScrollView */,
+				6AE6D0E62698295900C394F8 /* UICollectionView */,
+				6AE6D0E02698289C00C394F8 /* UITableView */,
+				6AC38C8F279ED17100DE5BB2 /* UITextView */,
+				6AF5EB6426D66BC800EAB6BC /* UIView */,
+				6AD948F726F4DCDE00DEA83C /* UIButton */,
+				6AE6D0EC26982D4300C394F8 /* UILabel */,
+				6AE6D0F226982DB400C394F8 /* YYLabel */,
+				6AB70F2226DD2D24008F5B0F /* UIImageView */,
+				6AE6CFB726960F5800C394F8 /* UIImage */,
+				6A6076ED26E398610058CC8B /* UIFont */,
+				6ACE894526EC1D91008F4412 /* UIColor */,
+				6AFC773C26F739FA0098099C /* CALayer */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6AE6CFB726960F5800C394F8 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFB826960F6600C394F8 /* UIImage+Magic.h */,
+				6AE6CFB926960F6600C394F8 /* UIImage+Magic.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		6AE6CFC12696163C00C394F8 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFC22696164F00C394F8 /* UIViewController+Magic.h */,
+				6AE6CFC32696164F00C394F8 /* UIViewController+Magic.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		6AE6CFCC2696210300C394F8 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFCD2696212000C394F8 /* MAGNavigationController.h */,
+				6AE6CFCE2696212000C394F8 /* MAGNavigationController.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		6AE6CFD22696257F00C394F8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFD42696259B00C394F8 /* Rack */,
+				6AE6CFD32696258C00C394F8 /* Book */,
+				6AE6CFD6269625A800C394F8 /* Mine */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6AE6CFD32696258C00C394F8 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				6A1CA35B26FB74C200DCC2C4 /* MAGBookMallViewController.h */,
+				6A1CA35C26FB74C200DCC2C4 /* MAGBookMallViewController.m */,
+				6A7148FA29E6A23500225F4B /* MAGBookMallModel.h */,
+				6A7148FB29E6A23500225F4B /* MAGBookMallModel.m */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		6AE6CFD42696259B00C394F8 /* Rack */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFD7269625D100C394F8 /* MAGRackViewController.h */,
+				6AE6CFD8269625D100C394F8 /* MAGRackViewController.m */,
+			);
+			path = Rack;
+			sourceTree = "<group>";
+		};
+		6AE6CFD6269625A800C394F8 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFE52696260E00C394F8 /* MAGMineViewController.h */,
+				6AE6CFE62696260E00C394F8 /* MAGMineViewController.m */,
+				6AEACC88272253E300181AA3 /* DarkMode */,
+				6AEACC3D2721585500181AA3 /* AboutUS */,
+				6AEACC452721830900181AA3 /* ReadingRecord */,
+				6AA9248127204007001CA27A /* Feedback */,
+				6AA9247627201EED001CA27A /* RechargeRecord */,
+				6A3675DA271DE5DE003C3A8F /* Recharge */,
+				6A768382271B072500E383F5 /* Login */,
+				6AC38C87279EA28B00DE5BB2 /* AccountCancellation */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		6AE6CFE92696293400C394F8 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFEE2696293400C394F8 /* NetworkCache */,
+				6AE6CFF12696293400C394F8 /* MAGNetworkReachabilityManager.h */,
+				6AE6CFEB2696293400C394F8 /* MAGNetworkReachabilityManager.m */,
+				6AE6CFF32696293400C394F8 /* MAGNetworkRequestManager.h */,
+				6AE6CFEC2696293400C394F8 /* MAGNetworkRequestManager.m */,
+				6A15860326D27AF300ABA351 /* MAGNetworkDownloadManager.h */,
+				6A15860426D27AF300ABA351 /* MAGNetworkDownloadManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		6AE6CFEE2696293400C394F8 /* NetworkCache */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6CFF02696293400C394F8 /* MAGNetworkCache.h */,
+				6AE6CFEF2696293400C394F8 /* MAGNetworkCache.m */,
+			);
+			path = NetworkCache;
+			sourceTree = "<group>";
+		};
+		6AE6D00626962EAC00C394F8 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D00726962EB800C394F8 /* NSString+Magic.h */,
+				6AE6D00826962EB800C394F8 /* NSString+Magic.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		6AE6D00C2696330700C394F8 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D00D2696331300C394F8 /* NSData+Magic.h */,
+				6AE6D00E2696331300C394F8 /* NSData+Magic.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		6AE6D02026963FB300C394F8 /* PublicModel */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE627D271DEB3E00041FDE /* RechargeModel */,
+				6AE6D1BA2698506700C394F8 /* BookModel */,
+				6AE6D02626963FEB00C394F8 /* UserInfoModel */,
+			);
+			path = PublicModel;
+			sourceTree = "<group>";
+		};
+		6AE6D02626963FEB00C394F8 /* UserInfoModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D0272696402100C394F8 /* MAGUserInfoModel.h */,
+				6AE6D0282696402100C394F8 /* MAGUserInfoModel.m */,
+			);
+			path = UserInfoModel;
+			sourceTree = "<group>";
+		};
+		6AE6D02C269692AB00C394F8 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D02D269692C000C394F8 /* MAGFileManager.h */,
+				6AE6D02E269692C000C394F8 /* MAGFileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		6AE6D03B26969DD400C394F8 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D03C26969DE100C394F8 /* NSObject+Magic.h */,
+				6AE6D03D26969DE100C394F8 /* NSObject+Magic.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		6AE6D06A2696DCC600C394F8 /* UITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D06B2696DCE700C394F8 /* MAGTabBarController.h */,
+				6AE6D06C2696DCE700C394F8 /* MAGTabBarController.m */,
+			);
+			path = UITabBarController;
+			sourceTree = "<group>";
+		};
+		6AE6D0D42698264D00C394F8 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D0D52698265F00C394F8 /* MAGTableViewCell.h */,
+				6AE6D0D62698265F00C394F8 /* MAGTableViewCell.m */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		6AE6D0E02698289C00C394F8 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D0E1269828AD00C394F8 /* UITableView+Magic.h */,
+				6AE6D0E2269828AD00C394F8 /* UITableView+Magic.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		6AE6D0E62698295900C394F8 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D0E82698296A00C394F8 /* UICollectionView+Magic.h */,
+				6AE6D0E92698296A00C394F8 /* UICollectionView+Magic.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		6AE6D0EC26982D4300C394F8 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D0ED26982D5200C394F8 /* UILabel+Magic.h */,
+				6AE6D0EE26982D5200C394F8 /* UILabel+Magic.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		6AE6D0F226982DB400C394F8 /* YYLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D0F326982DBD00C394F8 /* YYLabel+Magic.h */,
+				6AE6D0F426982DBD00C394F8 /* YYLabel+Magic.m */,
+			);
+			path = YYLabel;
+			sourceTree = "<group>";
+		};
+		6AE6D1B026984BF700C394F8 /* BookReader */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D1B126984C0F00C394F8 /* MAGBookReaderViewController.h */,
+				6AE6D1B226984C0F00C394F8 /* MAGBookReaderViewController.m */,
+				6A0251B426A16D93007F2428 /* Reader */,
+				6A0251B326A16D8B007F2428 /* Manager */,
+				6AB70F6626DDD47F008F5B0F /* Catalog */,
+				6A5CD6C826DC5354004F4DD3 /* MenuView */,
+			);
+			path = BookReader;
+			sourceTree = "<group>";
+		};
+		6AE6D1BA2698506700C394F8 /* BookModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AE6D1BB2698508B00C394F8 /* MAGBookModel.h */,
+				6AE6D1BC2698508B00C394F8 /* MAGBookModel.m */,
+				6AF5E4E126D4995400EAB6BC /* MAGBookCatalogModel.h */,
+				6AF5E4E226D4995400EAB6BC /* MAGBookCatalogModel.m */,
+				6AF5EC7A26D7B0FA00EAB6BC /* MAGBookChapterContentModel.h */,
+				6AF5EC7B26D7B0FA00EAB6BC /* MAGBookChapterContentModel.m */,
+				6AB0177626E958A20029ED2F /* MAGBookReadModel.h */,
+				6AB0177726E958A20029ED2F /* MAGBookReadModel.m */,
+				6AEBFE6926F192B300638EFD /* MAGBookPageContentModel.h */,
+				6AEBFE6A26F192B300638EFD /* MAGBookPageContentModel.m */,
+				ADF7B01C2851E4330073B83D /* MAGBookChannelsDetailModel.h */,
+				ADF7B01D2851E4330073B83D /* MAGBookChannelsDetailModel.m */,
+				ADF7B01F2851E4490073B83D /* MAGBannerModel.h */,
+				ADF7B0202851E4490073B83D /* MAGBannerModel.m */,
+				ADF7B0222851E4750073B83D /* MAGBookChannelsDetailLabelModel.h */,
+				ADF7B0232851E4750073B83D /* MAGBookChannelsDetailLabelModel.m */,
+			);
+			path = BookModel;
+			sourceTree = "<group>";
+		};
+		6AEACC3D2721585500181AA3 /* AboutUS */ = {
+			isa = PBXGroup;
+			children = (
+				6AEACC3E2721586900181AA3 /* MAGAboutUSViewController.h */,
+				6AEACC3F2721586900181AA3 /* MAGAboutUSViewController.m */,
+				6AEACC412721587700181AA3 /* Style */,
+			);
+			path = AboutUS;
+			sourceTree = "<group>";
+		};
+		6AEACC412721587700181AA3 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AEACC422721588200181AA3 /* MAGAboutUSViewController1.h */,
+				6AEACC432721588200181AA3 /* MAGAboutUSViewController1.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6AEACC452721830900181AA3 /* ReadingRecord */ = {
+			isa = PBXGroup;
+			children = (
+				6AEACC462721832200181AA3 /* MAGReadingRecordViewController.h */,
+				6AEACC472721832200181AA3 /* MAGReadingRecordViewController.m */,
+				6AEACC492721832B00181AA3 /* Style */,
+			);
+			path = ReadingRecord;
+			sourceTree = "<group>";
+		};
+		6AEACC492721832B00181AA3 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AEACC4A2721833300181AA3 /* MAGReadingRecordViewController1.h */,
+				6AEACC4B2721833300181AA3 /* MAGReadingRecordViewController1.m */,
+				6AEACC4D272185B900181AA3 /* MAGReadingRecordTableViewCell.h */,
+				6AEACC4E272185B900181AA3 /* MAGReadingRecordTableViewCell.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6AEACC88272253E300181AA3 /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				6AEACC89272253F400181AA3 /* MAGDarkModeViewController.h */,
+				6AEACC8A272253F400181AA3 /* MAGDarkModeViewController.m */,
+				6AEACC8C272253FD00181AA3 /* Style */,
+			);
+			path = DarkMode;
+			sourceTree = "<group>";
+		};
+		6AEACC8C272253FD00181AA3 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				6AEACC8D2722540600181AA3 /* MAGDarkModeViewController1.h */,
+				6AEACC8E2722540600181AA3 /* MAGDarkModeViewController1.m */,
+				6AEACC902722595000181AA3 /* MAGDarkModeTableViewCell.h */,
+				6AEACC912722595000181AA3 /* MAGDarkModeTableViewCell.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		6AEBFE7726F1BBD900638EFD /* MAGPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6AEBFE7326F1A63D00638EFD /* MAGPageViewController.h */,
+				6AEBFE7426F1A63D00638EFD /* MAGPageViewController.m */,
+			);
+			path = MAGPageViewController;
+			sourceTree = "<group>";
+		};
+		6AF5EB6426D66BC800EAB6BC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5EB6526D66BEF00EAB6BC /* UIView+Magic.h */,
+				6AF5EB6626D66BEF00EAB6BC /* UIView+Magic.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		6AF5EB6A26D66C1B00EAB6BC /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5EB6C26D66C2D00EAB6BC /* MAGProgressHUD.h */,
+				6AF5EB6B26D66C2D00EAB6BC /* MAGProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6AF5EC7E26D7EB9300EAB6BC /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5EC7F26D7EBA600EAB6BC /* NSAttributedString+Magic.h */,
+				6AF5EC8026D7EBA600EAB6BC /* NSAttributedString+Magic.m */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		6AFC773C26F739FA0098099C /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				6AFC773D26F73A080098099C /* CALayer+Magic.h */,
+				6AFC773E26F73A080098099C /* CALayer+Magic.m */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD79AAD26946F6E00CDCEBE /* MagicView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD79AC726946F6F00CDCEBE /* Build configuration list for PBXNativeTarget "MagicView" */;
+			buildPhases = (
+				1904938FCF06FA6339DDBB50 /* [CP] Check Pods Manifest.lock */,
+				6AD79AAA26946F6E00CDCEBE /* Sources */,
+				6AD79AAB26946F6E00CDCEBE /* Frameworks */,
+				6AD79AAC26946F6E00CDCEBE /* Resources */,
+				D620EA399A07C26FC41D18C6 /* [CP] Embed Pods Frameworks */,
+				A0F19405C456D7108AB22540 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicView;
+			productName = MagicView;
+			productReference = 6AD79AAE26946F6E00CDCEBE /* MagicView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD79AA626946F6E00CDCEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAG;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6AD79AAD26946F6E00CDCEBE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 6AD79AA926946F6E00CDCEBE /* Build configuration list for PBXProject "MagicView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD79AA526946F6E00CDCEBE;
+			productRefGroup = 6AD79AAF26946F6E00CDCEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD79AAD26946F6E00CDCEBE /* MagicView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD79AAC26946F6E00CDCEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD79AC126946F6F00CDCEBE /* LaunchScreen.storyboard in Resources */,
+				6AD79ABE26946F6F00CDCEBE /* Assets.xcassets in Resources */,
+				6A7683D6271D539300E383F5 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1904938FCF06FA6339DDBB50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F19405C456D7108AB22540 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicView/Pods-MagicView-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicView/Pods-MagicView-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicView/Pods-MagicView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D620EA399A07C26FC41D18C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicView/Pods-MagicView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicView/Pods-MagicView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicView/Pods-MagicView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD79AAA26946F6E00CDCEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEACC4C2721833300181AA3 /* MAGReadingRecordViewController1.m in Sources */,
+				6AE6CFF72696293500C394F8 /* MAGNetworkRequestManager.m in Sources */,
+				6A7683C3271BDBBF00E383F5 /* UIView+Refresh.m in Sources */,
+				6AD17B5826E1A0D500B05EF8 /* MAGLabel.m in Sources */,
+				6A7683CA271BDBBF00E383F5 /* NSObject+LLDark.m in Sources */,
+				6AB0177826E958A20029ED2F /* MAGBookReadModel.m in Sources */,
+				6ABE6287271E638300041FDE /* MAGProductsRequest.m in Sources */,
+				6AB70F1426DD0EF5008F5B0F /* MAGActivityIndicatorView.m in Sources */,
+				6A0251B726A16E50007F2428 /* MAGBookAnimateViewController.m in Sources */,
+				6AF5EB6726D66BEF00EAB6BC /* UIView+Magic.m in Sources */,
+				ADF7B01E2851E4330073B83D /* MAGBookChannelsDetailModel.m in Sources */,
+				6AE6D06D2696DCE700C394F8 /* MAGTabBarController.m in Sources */,
+				6AA9247D27201F75001CA27A /* MAGRechargeRecordViewController1.m in Sources */,
+				6ACE894826EC1DA1008F4412 /* UIColor+Magic.m in Sources */,
+				6AD79B1B26947A2900CDCEBE /* MAGNavigationBar.m in Sources */,
+				6AE6D0EA2698296A00C394F8 /* UICollectionView+Magic.m in Sources */,
+				6ABE628A271E6EAD00041FDE /* MAGRechargeTableViewCell.m in Sources */,
+				6A1CA04826FAFD7500DCC2C4 /* MAGStarView.m in Sources */,
+				6AF5EC7C26D7B0FA00EAB6BC /* MAGBookChapterContentModel.m in Sources */,
+				6AD79AE5269471C700CDCEBE /* WXYZ_DiscoverViewController.m in Sources */,
+				6A7683C9271BDBBF00E383F5 /* UITabBarItem+Dark.m in Sources */,
+				6A6077DE26E6FFED0058CC8B /* MAGAnimatedImageView.m in Sources */,
+				6A7683E4271D8AFD00E383F5 /* MAGAppleManager.m in Sources */,
+				6AD9437A26F2D6F000DEA83C /* MAGPurchaseManager.m in Sources */,
+				6AC38C8A279EA2BB00DE5BB2 /* MAGAccountCancellationViewController.m in Sources */,
+				6ABE6280271DEB4B00041FDE /* MAGRechargeModel.m in Sources */,
+				6AD79B7D26948C4F00CDCEBE /* MAGTableSectionView.m in Sources */,
+				6A6077F226E700E70058CC8B /* MAGScrollView.m in Sources */,
+				ADF7B0212851E44A0073B83D /* MAGBannerModel.m in Sources */,
+				6AB0E56226F80CB30099CABF /* MAGClickAgent.m in Sources */,
+				6A0251E126A1804A007F2428 /* MAGBookReaderManager.m in Sources */,
+				6AEBFE6B26F192B300638EFD /* MAGBookPageContentModel.m in Sources */,
+				6A7683BE271BDBBF00E383F5 /* LLDarkSource.m in Sources */,
+				6AD9436826F2AC8000DEA83C /* MAGBookBuyView1.m in Sources */,
+				6AD17BA726E211E100B05EF8 /* MAGUserDefaults.m in Sources */,
+				6AA9249F27214561001CA27A /* MAGDeveloperManager.m in Sources */,
+				6A7683CE271BDBBF00E383F5 /* UIImage+Dark.m in Sources */,
+				6AE6CFD9269625D100C394F8 /* MAGRackViewController.m in Sources */,
+				6AE6D00F2696331300C394F8 /* NSData+Magic.m in Sources */,
+				6AE6D02326963FCD00C394F8 /* MAGUserInfoManager.m in Sources */,
+				6A7683C6271BDBBF00E383F5 /* NSMutableDictionary+Refresh.m in Sources */,
+				6AD79AB326946F6E00CDCEBE /* AppDelegate.m in Sources */,
+				6AE6D0292696402100C394F8 /* MAGUserInfoModel.m in Sources */,
+				6A768385271B073700E383F5 /* MAGLoginViewController.m in Sources */,
+				6AB70FC426DDE046008F5B0F /* MAGBookCatalogTableViewCell1.m in Sources */,
+				6A6077EC26E700AB0058CC8B /* MAGTextField.m in Sources */,
+				6A6077E426E700190058CC8B /* MAGButton.m in Sources */,
+				6A7683D0271BDBBF00E383F5 /* UIImageView+Dark.m in Sources */,
+				6AE6D0E3269828AD00C394F8 /* UITableView+Magic.m in Sources */,
+				6A0251E826A1A889007F2428 /* MAGView.m in Sources */,
+				6A60781526E73EF80058CC8B /* MAGShareManager.m in Sources */,
+				6AE6D0682696DB3900C394F8 /* WXYZ_SystemInfoManager.m in Sources */,
+				6AEACC8B272253F400181AA3 /* MAGDarkModeViewController.m in Sources */,
+				6AEACC402721586900181AA3 /* MAGAboutUSViewController.m in Sources */,
+				6A5CD6C526DC4311004F4DD3 /* MAGBookReaderMenuView.m in Sources */,
+				6AEACCB72723EBCE00181AA3 /* MAGBookCatalogViewController.m in Sources */,
+				6ABC145926F24D9B00CB550B /* MAGBookBuyView.m in Sources */,
+				6A15849626CF8D7800ABA351 /* Foundation+Log.m in Sources */,
+				6A5E6AFB26DF9F7C004611B9 /* MAGBookContentView1.m in Sources */,
+				6A0251DD26A17F44007F2428 /* MAGBookSimulationPageAnimateViewController.m in Sources */,
+				6A1CA04C26FB244A00DCC2C4 /* UIScrollView+Magic.m in Sources */,
+				6AA92480272032A2001CA27A /* MAGRechargeRecordTableViewCell.m in Sources */,
+				AD66F8CA285975CE005A7B4A /* WXYZ_ViewHelper.m in Sources */,
+				6A7683CB271BDBBF00E383F5 /* CALayer+Dark.m in Sources */,
+				6A7683C1271BDBBF00E383F5 /* NSObject+Refresh.m in Sources */,
+				6A1CA04F26FB24BC00DCC2C4 /* MAGRefreshSafeHeader.m in Sources */,
+				6ABCC274272BFCC300881B64 /* MAGCameraManager.m in Sources */,
+				6AC38C92279ED18400DE5BB2 /* UITextView+Magic.m in Sources */,
+				6AE6D1B326984C0F00C394F8 /* MAGBookReaderViewController.m in Sources */,
+				6A6077D826E6FFB30058CC8B /* MAGImageView.m in Sources */,
+				6A6076F026E398710058CC8B /* UIFont+Magic.m in Sources */,
+				6A7683CC271BDBBF00E383F5 /* CAGradientLayer+Dark.m in Sources */,
+				6AD79AC426946F6F00CDCEBE /* main.m in Sources */,
+				6AEACC4F272185B900181AA3 /* MAGReadingRecordTableViewCell.m in Sources */,
+				6AD79ADC269471A500CDCEBE /* WXYZ_RackViewController.m in Sources */,
+				6A3675D4271DAD20003C3A8F /* MAGQQManager.m in Sources */,
+				6A6077D226E6FF800058CC8B /* MAGYYLabel.m in Sources */,
+				6AEBFE7526F1A63D00638EFD /* MAGPageViewController.m in Sources */,
+				6AE6CFF62696293500C394F8 /* MAGNetworkReachabilityManager.m in Sources */,
+				6AE6D0EF26982D5200C394F8 /* UILabel+Magic.m in Sources */,
+				6AD79AE9269471D300CDCEBE /* WXYZ_MineViewController.m in Sources */,
+				6A02520926A1AAEA007F2428 /* MAGBookContentView.m in Sources */,
+				6AE6D0D72698265F00C394F8 /* MAGTableViewCell.m in Sources */,
+				6A5CD6CC26DC53DF004F4DD3 /* MAGBookReaderMenuView1.m in Sources */,
+				6AD79B15269479EA00CDCEBE /* MAGNavigationBarViewController.m in Sources */,
+				6AC38C8E279EA34F00DE5BB2 /* MAGAccountCancellationViewController1.m in Sources */,
+				6AB70F2526DD2D36008F5B0F /* UIImageView+Magic.m in Sources */,
+				6AE6CFC926961B3D00C394F8 /* MAGAbstractViewController.m in Sources */,
+				6AE6D1B826984EA200C394F8 /* MAGBookRecordManager.m in Sources */,
+				6AA9248427204025001CA27A /* MAGFeedbackViewController.m in Sources */,
+				6A7683BD271BDBBF00E383F5 /* LLThird.m in Sources */,
+				6A60780A26E7028D0058CC8B /* MAGCollectionView.m in Sources */,
+				6AE6D1BD2698508B00C394F8 /* MAGBookModel.m in Sources */,
+				6AEACC482721832200181AA3 /* MAGReadingRecordViewController.m in Sources */,
+				6A02520D26A1AC17007F2428 /* MAGBookManager.m in Sources */,
+				6A7683C5271BDBBF00E383F5 /* CALayer+Refresh.m in Sources */,
+				6AE6CFC42696164F00C394F8 /* UIViewController+Magic.m in Sources */,
+				6AD79B23269480FF00CDCEBE /* MAGUIFactory.m in Sources */,
+				6AE6D00926962EB800C394F8 /* NSString+Magic.m in Sources */,
+				6AD79AE1269471AF00CDCEBE /* WXYZ_MallViewController.m in Sources */,
+				6AEACC8F2722540600181AA3 /* MAGDarkModeViewController1.m in Sources */,
+				6A7683C4271BDBBF00E383F5 /* NSMutableAttributedString+Refresh.m in Sources */,
+				6A87D9FE2726945B0023B35D /* MAGADView.m in Sources */,
+				6AE6CF9D269604D700C394F8 /* MAGUITools.m in Sources */,
+				6A7C8C7727277802005AF1DC /* MAGInitializeManager.m in Sources */,
+				6AEACC442721588200181AA3 /* MAGAboutUSViewController1.m in Sources */,
+				6AD948F426F4D9C800DEA83C /* MAGBookRetryView.m in Sources */,
+				6AD17BB126E222C700B05EF8 /* MAGSliderView.m in Sources */,
+				6AB70F1F26DD22B8008F5B0F /* MAGResourceLinkManager.m in Sources */,
+				6A7683C0271BDBBF00E383F5 /* NSObject+Expand.m in Sources */,
+				6AA9247927201F0A001CA27A /* MAGRechargeRecordViewController.m in Sources */,
+				6A7148FC29E6A23500225F4B /* MAGBookMallModel.m in Sources */,
+				6AA9248827204032001CA27A /* MAGFeedbackViewController1.m in Sources */,
+				6A7683CF271BDBBF00E383F5 /* CAShapeLayer+Dark.m in Sources */,
+				6ABB0E6726D9AFA7003A923F /* NSError+Magic.m in Sources */,
+				6A15860526D27AF300ABA351 /* MAGNetworkDownloadManager.m in Sources */,
+				6A02520526A1AAD6007F2428 /* MAGBookContentViewController.m in Sources */,
+				6AFC773F26F73A080098099C /* CALayer+Magic.m in Sources */,
+				6AE6D03E26969DE100C394F8 /* NSObject+Magic.m in Sources */,
+				6A32475A272CC496004CDAE7 /* MAGPhotoManager.m in Sources */,
+				6A6077FE26E701A80058CC8B /* MAGYYTextView.m in Sources */,
+				6A15858B26D115C400ABA351 /* NSArray+Magic.m in Sources */,
+				6AE6D0F526982DBD00C394F8 /* YYLabel+Magic.m in Sources */,
+				6A60780426E702590058CC8B /* MAGTableView.m in Sources */,
+				6ABE627C271DE6BD00041FDE /* MAGRechargeViewController1.m in Sources */,
+				6A87DA01272696190023B35D /* MAGBUAView.m in Sources */,
+				6AE6CFBA26960F6600C394F8 /* UIImage+Magic.m in Sources */,
+				6AD79AF72694795D00CDCEBE /* MAGViewController.m in Sources */,
+				6A7683BC271BDBBF00E383F5 /* LLDarkManager.m in Sources */,
+				6A3675CA271D9EE3003C3A8F /* MAGWechatManager.m in Sources */,
+				6AF5E4E326D4995400EAB6BC /* MAGBookCatalogModel.m in Sources */,
+				6AD17BB026E222C700B05EF8 /* MAGSliderSetting.m in Sources */,
+				6AEACC922722595000181AA3 /* MAGDarkModeTableViewCell.m in Sources */,
+				6AF5EB6D26D66C2D00EAB6BC /* MAGProgressHUD.m in Sources */,
+				6A7683BF271BDBBF00E383F5 /* LLDarkWindow.m in Sources */,
+				6A768389271B075700E383F5 /* MAGLoginViewController1.m in Sources */,
+				6A5CD77026DCDBF4004F4DD3 /* MAGBookListenManager.m in Sources */,
+				6AF5EC8126D7EBA600EAB6BC /* NSAttributedString+Magic.m in Sources */,
+				6A7683C8271BDBBF00E383F5 /* CATextLayer+Dark.m in Sources */,
+				6A15844A26CF5F2A00ABA351 /* NSDictionary+Magic.m in Sources */,
+				6AD948FA26F4DCEC00DEA83C /* UIButton+Magic.m in Sources */,
+				6AB70F6926DDD4AF008F5B0F /* MAGBookCatalogViewController1.m in Sources */,
+				6AA9248F2720C859001CA27A /* MAGCollectionViewCell.m in Sources */,
+				6A1CA35D26FB74C200DCC2C4 /* MAGBookMallViewController.m in Sources */,
+				6A7683C2271BDBBF00E383F5 /* UIViewController+Refresh.m in Sources */,
+				6AE6CFE72696260E00C394F8 /* MAGMineViewController.m in Sources */,
+				6AE6D02F269692C000C394F8 /* MAGFileManager.m in Sources */,
+				6AD79AD4269470CE00CDCEBE /* WXYZ_MainTabbarViewController.m in Sources */,
+				6A6077F826E7011E0058CC8B /* MAGTextView.m in Sources */,
+				6A6076E926E3965E0058CC8B /* YYAnimatedImageView+Util.m in Sources */,
+				6ABB0E6226D923E2003A923F /* MAGBookDownloadManager.m in Sources */,
+				6A7683CD271BDBBF00E383F5 /* UIColor+Dark.m in Sources */,
+				ADF7B0242851E4750073B83D /* MAGBookChannelsDetailLabelModel.m in Sources */,
+				6A3675DD271DE5F0003C3A8F /* MAGRechargeViewController.m in Sources */,
+				6AE6CFCF2696212000C394F8 /* MAGNavigationController.m in Sources */,
+				6AE6CFF82696293500C394F8 /* MAGNetworkCache.m in Sources */,
+				6AE6D0642696DA0A00C394F8 /* WXYZ_UtilsHelper.m in Sources */,
+				6A7683C7271BDBBF00E383F5 /* UIView+Dark.m in Sources */,
+				6AA92475272017F6001CA27A /* MAGRechargeRecordModel.m in Sources */,
+				6ABE6284271DEE9400041FDE /* MAGIAPManager.m in Sources */,
+				6A7683BB271BDBBF00E383F5 /* LLLaunchScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AD79ABF26946F6F00CDCEBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD79AC026946F6F00CDCEBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AD79AC526946F6F00CDCEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AD79AC626946F6F00CDCEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD79AC826946F6F00CDCEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031CEFD909F2B1FD81CAF6FA /* Pods-MagicView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = MagicView/MagicView.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2P47Y4BZJW;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicView/MagicView/Manager/QQManager",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MagicView/PublicModule/PrefixHeader.pch";
+				INFOPLIST_FILE = MagicView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingchenguoji.video;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingchenguoji_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6AD79AC926946F6F00CDCEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F0487250A9049B0905AE5B /* Pods-MagicView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = MagicView/MagicView.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2P47Y4BZJW;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagicView/MagicView/Manager/QQManager",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MagicView/PublicModule/PrefixHeader.pch";
+				INFOPLIST_FILE = MagicView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingchenguoji.video;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = xingchenguoji_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD79AA926946F6E00CDCEBE /* Build configuration list for PBXProject "MagicView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD79AC526946F6F00CDCEBE /* Debug */,
+				6AD79AC626946F6F00CDCEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD79AC726946F6F00CDCEBE /* Build configuration list for PBXNativeTarget "MagicView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD79AC826946F6F00CDCEBE /* Debug */,
+				6AD79AC926946F6F00CDCEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD79AA626946F6E00CDCEBE /* Project object */;
+}
