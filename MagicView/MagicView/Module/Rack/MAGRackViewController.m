@@ -18,8 +18,8 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    [MAGClickAgent appendDidAppearViewControllerName:@"书架页面"];
     [MAGClickAgent event:@"用户进入书架页面"];
+    [MAGClickAgent appendDidAppearViewControllerName:@"书架页面"];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
