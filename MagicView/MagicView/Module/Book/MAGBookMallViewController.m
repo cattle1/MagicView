@@ -29,6 +29,7 @@
         NSLog(@"");
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"");
+        NSLog(@"Print");
     }];
 }
 
